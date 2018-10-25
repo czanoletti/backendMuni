@@ -1,0 +1,29 @@
+[
+  {
+    "id_categoria_trabajo": 1,
+    "id_empleado": 2,
+    "oferta": "Secretaria de telecomunicaciones",
+    "descripcion_oferta": "Se necesita a secretaria",
+    "nombre_empresa": "Telco S.A",
+    "direccion_empresa": "Barrio san antonio, enfrente de colegio 'el saber'",
+    "telefono_empresa": 55500055
+  },
+  {
+    "id_categoria_trabajo": 2,
+    "id_empleado": 2,
+    "oferta": "Agente de telecomunicaciones",
+    "descripcion_oferta": "Se necesita a agente",
+    "nombre_empresa": "Telco S.A",
+    "direccion_empresa": "Barrio san antonio, enfrente de colegio 'el saber'",
+    "telefono_empresa": 55500055
+  },
+  {
+    "id_categoria_trabajo": 3,
+    "id_empleado": 2,
+    "oferta": "Asesor de telecomunicaciones",
+    "descripcion_oferta": "Se necesita a asesor",
+    "nombre_empresa": "Telco S.A",
+    "direccion_empresa": "Barrio san antonio, enfrente de colegio 'el saber'",
+    "telefono_empresa": 55500055
+  }
+]

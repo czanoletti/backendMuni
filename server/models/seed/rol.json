@@ -1,0 +1,14 @@
+[
+  {
+    "rol": "administrador"
+  },
+  {
+    "rol": "desabilitado"
+  },
+  {
+    "rol": "empleado"
+  },
+  {
+    "rol": "gerente"
+  }
+]

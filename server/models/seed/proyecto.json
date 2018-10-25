@@ -1,0 +1,32 @@
+[
+  {
+    "proyecto": "Abastajo Santa Barbara",
+    "descripcion_proyecto": "Se realizo abastajo en Santa Barbara",
+    "fecha_inicio_proyecto": "2018/08/20",
+    "fecha_final_proyecto": "2018/12/20",
+    "monto_proyecto": 133333,
+    "id_tipo_proyecto": 1,
+    "id_empleado": 3,
+    "id_categoria_proyecto": 2
+  },
+  {
+    "proyecto": "Lotificacion",
+    "descripcion_proyecto": "Se realizo lotificacion en Santa Barbara",
+    "fecha_inicio_proyecto": "2018/08/20",
+    "fecha_final_proyecto": "2018/12/20",
+    "monto_proyecto": 655440,
+    "id_tipo_proyecto": 1,
+    "id_empleado": 2,
+    "id_categoria_proyecto": 3
+  },
+  {
+    "proyecto": "Construccion Santa Barbara",
+    "descripcion_proyecto": "Se realizo construccion en Santa Barbara",
+    "fecha_inicio_proyecto": "2018/08/20",
+    "fecha_final_proyecto": "2018/12/20",
+    "monto_proyecto": 400434,
+    "id_tipo_proyecto": 1,
+    "id_empleado": 1,
+    "id_categoria_proyecto": 1
+  }
+]

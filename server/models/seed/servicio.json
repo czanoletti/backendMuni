@@ -1,0 +1,27 @@
+[
+  {
+    "servicio": "Agua potable va a requerir: DPI, Boleto Ornato",
+    "id_empleado": 3,
+    "id_tipo_servicio": 2
+  },
+  {
+    "servicio": "Agua potable va a requerir: DPI, Boleto Ornato",
+    "id_empleado": 2,
+    "id_tipo_servicio": 1
+  },
+  {
+    "servicio": "Agua potable va a requerir: DPI, Boleto Ornato",
+    "id_empleado": 3,
+    "id_tipo_servicio": 3
+  },
+  {
+    "servicio": "Agua potable va a requerir: DPI, Boleto Ornato",
+    "id_empleado": 4,
+    "id_tipo_servicio": 4
+  },
+  {
+    "servicio": "Agua potable va a requerir: DPI, Boleto Ornato",
+    "id_empleado": 5,
+    "id_tipo_servicio": 2
+  }
+]

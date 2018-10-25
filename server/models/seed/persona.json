@@ -1,0 +1,98 @@
+[
+  {
+    "p_nombre1": "Alejandro",
+    "p_nombre2": "Manuel",
+    "p_apellido1": "Sandoval",
+    "p_apellido2": "Aguirre",
+    "p_DPI": 2927855455222,
+    "p_NIT": 78499495,
+    "p_telefono": 55595995,
+    "email": "alejandro@municipalidad.com",
+    "p_celular": 444794383,
+    "p_direccion": "Lotificación San Martin casa 45",
+    "p_fecha_nacimiento": "1990/11/23"
+  },{
+    "p_nombre1": "Herman",
+    "p_nombre2": "Rodolfo",
+    "p_apellido1": "Mejia",
+    "p_apellido2": "Mazariegos",
+    "p_DPI": 211155122111,
+    "p_NIT": 43224111,
+    "p_telefono": 55555555,
+    "email": "herman@municipalidad.com",
+    "p_celular": 44443333,
+    "p_direccion": "Lotificación San Martin casa 35",
+    "p_fecha_nacimiento": "1980/11/23"
+  },{
+
+    "p_nombre1": "Armando",
+    "p_nombre2": "Fabio",
+    "p_apellido1": "Mazariegos",
+    "p_apellido2": "Arriola",
+    "p_DPI": 23255435567,
+    "p_NIT": 4348735,
+    "p_telefono": 55585855,
+    "email": "armand@municipalidad.com",
+    "p_celular": 4484833,
+    "p_direccion": "barrio san antonio",
+    "p_fecha_nacimiento": "19870/11/23"
+  },{
+
+    "p_nombre1": "Manuel",
+    "p_apellido1": "Gutierres",
+    "p_apellido2": "Gutierres",
+    "p_DPI": 232352345222,
+    "p_NIT": 43436745,
+    "p_telefono": 55555555,
+    "email": "guillermon@municipalidad.com",
+    "p_celular": 44443333,
+    "p_direccion": "Barrio nuevo",
+    "p_fecha_nacimiento": "1989/11/23"
+  },{
+    "p_nombre1": "Emanuel",
+    "p_apellido1": "Lopes",
+    "p_apellido2": "paz",
+    "p_DPI": 2323512342222,
+    "p_NIT": 4343445,
+    "p_telefono": 8989555,
+    "email": "emanuel@municipalidad.com",
+    "p_celular": 448733388,
+    "p_direccion": "cayuga",
+    "p_fecha_nacimiento": "1992/11/23"
+  },{
+    "p_nombre1": "Mario",
+    "p_nombre2": "Alejandro",
+    "p_apellido1": "Ardon",
+    "p_apellido2": "Marroquin",
+    "p_DPI": 2323553589222,
+    "p_NIT": 434568745,
+    "p_telefono": 55253545,
+    "email": "mario@municipalidad.com",
+    "p_celular": 44343836,
+    "p_direccion": "Barrio san antonio",
+    "p_fecha_nacimiento": "1987/11/23"
+  },{
+    "p_nombre1": "Nelson",
+    "p_nombre2": "Armando",
+    "p_apellido1": "Cabrera",
+    "p_apellido2": "Marroquin",
+    "p_DPI": 2324332389222,
+    "p_NIT": 43452345,
+    "p_telefono": 552534334,
+    "email": "mnelsono@municipalidad.com",
+    "p_celular": 44343836,
+    "p_direccion": "Barrio san antonio",
+    "p_fecha_nacimiento": "1987/14/24"
+  },{
+    "p_nombre1": "Marco",
+    "p_apellido1": "Asturias",
+    "p_apellido2": "Valbuena",
+    "p_DPI": 2344355232849222,
+    "p_NIT": 43422745,
+    "p_telefono": 552544545,
+    "email": "marco Asturias@municipalidad.com",
+    "p_celular": 443443836,
+    "p_direccion": "Barrio san antonio",
+    "p_fecha_nacimiento": "1987/14/23"
+  }
+]

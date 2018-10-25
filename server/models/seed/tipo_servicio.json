@@ -1,0 +1,14 @@
+[
+  {
+    "tipo_servicio": "comun"
+  },
+  {
+    "tipo_servicio": "agua"
+  },
+  {
+    "tipo_servicio": "electricidad"
+  },
+  {
+    "tipo_servicio": "abastajos"
+  }
+]

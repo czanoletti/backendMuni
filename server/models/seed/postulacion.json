@@ -1,0 +1,14 @@
+[
+  {
+    "id_postulante": 1,
+    "id_oferta_trabajo": 3
+  },
+  {
+    "id_postulante": 2,
+    "id_oferta_trabajo": 2
+  },
+  {
+    "id_postulante": 2,
+    "id_oferta_trabajo": 1
+  }
+]

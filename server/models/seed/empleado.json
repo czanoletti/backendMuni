@@ -1,0 +1,38 @@
+[
+  {
+    "puesto": "Administrador Recursos Humanos",
+    "fecha_ingreso": "2010/01/21",
+    "id_rol": 2,
+    "id_persona": 6
+  },
+  {
+    "puesto": "Administrador de Informatica",
+    "fecha_ingreso": "2013/02/25",
+    "id_rol": 1,
+    "id_persona": 2
+  },
+  {
+    "puesto": "Secretaria de informatica",
+    "fecha_ingreso": "2010/01/12",
+    "id_rol": 3,
+    "id_persona": 3
+  },
+  {
+    "puesto": "Gerente General",
+    "fecha_ingreso": "2014/03/11",
+    "id_rol": 4,
+    "id_persona": 1
+  },
+  {
+    "puesto": "Tesorero",
+    "fecha_ingreso": "2012/01/15",
+    "id_rol": 4,
+    "id_persona": 4
+  },
+  {
+    "puesto": "Secretaria de Tesoreria",
+    "fecha_ingreso": "2012/01/15",
+    "id_rol": 2,
+    "id_persona": 5
+  }
+]

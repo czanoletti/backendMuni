@@ -1,0 +1,16 @@
+[
+  {
+    "titulo": "Abra cambios para nueva municipalidad",
+    "descripcion": "Los cambios que se dieron a conocer fueron suficientes para establecer nuevas ordenanzas.",
+    "p_fecha": "2018/2/23",
+    "url_img": "https://fakeimg.pl/350x200/?text=World&font=lobster",
+    "id_empleado": 3
+  },
+  {
+    "titulo": "Escuela en funcionamiento",
+    "descripcion": "Escuela es fundada y lista para funcionar.",
+    "p_fecha": "2018/2/22",
+    "url_img": "https://fakeimg.pl/350x200/?text=World&font=escuela",
+    "id_empleado": 2
+  }
+]

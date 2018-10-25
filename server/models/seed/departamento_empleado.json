@@ -1,0 +1,28 @@
+[
+  {
+    "id_departamento":3,
+    "id_empleado": 1
+  },
+
+  {
+    "id_departamento":6,
+    "id_empleado": 2
+  },
+  {
+    "id_departamento":4,
+    "id_empleado": 3
+  },
+  {
+    "id_departamento":7,
+    "id_empleado": 4
+  },
+  {
+    "id_departamento":6,
+    "id_empleado": 5
+  },
+  {
+    "id_departamento":6,
+    "id_empleado": 6
+  }
+
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "nombre_archivo": "Organigrama",
+    "descripcion": "este es el organigrama de la municipalidad",
+    "url_archivo": "https://fakeimg.pl/",
+    "id_empleado": 4,
+    "id_tipo_archivo": 2
+  },
+  {
+    "nombre_archivo": "Organigrama 2",
+    "descripcion": "este es el organigrama de la municipalidad 1",
+    "url_archivo": "https://fakeimg.pl/",
+    "id_empleado": 4,
+    "id_tipo_archivo": 1
+  },
+  {
+    "nombre_archivo": "Organigrama 3",
+    "descripcion": "este es el organigrama de la municipalidad 2",
+    "url_archivo": "https://fakeimg.pl/",
+    "id_empleado": 4,
+    "id_tipo_archivo": 3
+  }
+]

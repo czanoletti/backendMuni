@@ -1,0 +1,10 @@
+[
+  {
+    "id_empleado": 2,
+    "id_cliente_inhumacion": 1
+  },
+  {
+    "id_empleado": 1,
+    "id_cliente_inhumacion": 2
+  }
+]

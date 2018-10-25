@@ -1,0 +1,32 @@
+[
+  {
+    "id_empleado": 6,
+    "usuario": "empleado1232",
+    "contrasena": "pass1"
+  },
+  {
+    "id_empleado": 5,
+    "usuario": "empleado5627",
+    "contrasena": "pass2"
+  },
+  {
+    "id_empleado": 4,
+    "usuario": "empleado6732",
+    "contrasena": "pass3"
+  },
+  {
+    "id_empleado": 3,
+    "usuario": "empleado1902",
+    "contrasena": "pass4"
+  },
+  {
+    "id_empleado": 2,
+    "usuario": "empleado18902",
+    "contrasena": "pass5"
+  },
+  {
+    "id_empleado": 1,
+    "usuario": "empleado563322",
+    "contrasena": "pass6"
+  }
+]

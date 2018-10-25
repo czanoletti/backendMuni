@@ -1,0 +1,26 @@
+[
+  {
+    "nombre_curso": "Cocina Basica",
+    "descripcion_curso": "En este curso se realizara toda obra culinaria de comidas navideñas.",
+    "fecha_inicio_curso": "2018/12/02",
+    "fecha_fin_curso": "2018/12/10",
+    "id_empleado": 1,
+    "id_tipo_curso": 1
+  },
+  {
+    "nombre_curso": "Repostería",
+    "descripcion_curso": "En este curso se realizara toda obra culinaria de postres.",
+    "fecha_inicio_curso": "2018/12/02",
+    "fecha_fin_curso": "2018/12/20",
+    "id_empleado": 1,
+    "id_tipo_curso": 1
+  },
+  {
+    "nombre_curso": "Maneja tus finanzas",
+    "descripcion_curso": "Administra tu hogar hacia un mejor futuro",
+    "fecha_inicio_curso": "2018/11/02",
+    "fecha_fin_curso": "2018/11/10",
+    "id_empleado": 3,
+    "id_tipo_curso": 2
+  }
+]

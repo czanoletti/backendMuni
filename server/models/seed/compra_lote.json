@@ -1,0 +1,29 @@
+[
+  {
+    "recibo_lote": 2366444,
+    "licencia_construccion": 667556,
+    "fecha_compra": "2018/05/22",
+    "observacion": "Se cancelo al contado",
+    "id_empleado":2,
+    "id_cliente_lote": 2,
+    "id_lote": 1
+  },
+  {
+    "recibo_lote": 2333344,
+    "licencia_construccion": 663336,
+    "fecha_compra": "2018/05/22",
+    "observacion": "Se cancelo al contado",
+    "id_empleado":4,
+    "id_cliente_lote": 1,
+    "id_lote": 2
+  },
+  {
+    "recibo_lote": 2233444,
+    "licencia_construccion": 667224,
+    "fecha_compra": "2018/05/22",
+    "observacion": "Se cancelo al contado",
+    "id_empleado":3,
+    "id_cliente_lote": 3,
+    "id_lote": 3
+  }
+]
