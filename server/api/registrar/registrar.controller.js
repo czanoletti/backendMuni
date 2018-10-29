@@ -3,7 +3,7 @@
 const models = require('../../models/db');
 
 exports.registrar = registrar;
-
+exports.getDeptoEmp = getDeptoEmp;
 /*
 *
 * This controller makes transactions for creating a new user.
@@ -11,8 +11,23 @@ exports.registrar = registrar;
 *
 * */
 
-function registrar(req, res) {
+function getDeptoEmp(req, res){
+    return models.departamento_empleado.findAll({
+        include:[
+            {
+                model: models.empleado
+            },
+            {
+                model: models.departamento
+            }
+        ]
+    })
+        .then(depEmp => res.send(depEmp))
+        .catch(err => res.json(err) );
 
+}
+
+function registrar(req, res) {
     let id;
 
     return models.sequelize.transaction(function (t) {
