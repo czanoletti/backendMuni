@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 80;
 const db = require('./server/models/db');
 const path = require('path');
 
@@ -20,21 +20,25 @@ require('./server/api')(app);
 // Static content
 // app.use(express.static(path.join(__dirname, 'dist')));
 
-db.sequelize.sync({
-  force:true
-})
-    .then(()=>{
-        // Populate DB
-        const populate = require('./server/models/seed/seed-db').insert;
-        populate().then(()=>{
-            console.log('done');
-        });
-    })
-    .then(()=>{
-      app.listen(port, () => {
-      console.log('running server on port ' + port);
-    });
-
-    }).catch((err)=>{
-        console.log(err);
-    });
+app.listen(port, () => {
+    console.log('running server on port ' + port);
+});
+//
+// db.sequelize.sync({
+//   force:true
+// })
+//     .then(()=>{
+//         // Populate DB
+//         const populate = require('./server/models/seed/seed-db').insert;
+//         populate().then(()=>{
+//             console.log('done');
+//         });
+//     })
+//     .then(()=>{
+//       app.listen(port, () => {
+//       console.log('running server on port ' + port);
+//     });
+//
+//     }).catch((err)=>{
+//         console.log(err);
+//     });
