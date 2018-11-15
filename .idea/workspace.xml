@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ed8005-c256-4ba0-832a-df3fb06935f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/api/banner/banner.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/municipalidad-morales/assets/concejo-municipal.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/municipalidad-morales/assets/concejo-municipal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/municipalidad-morales/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/municipalidad-morales/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/municipalidad-morales/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/municipalidad-morales/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/municipalidad-morales/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/municipalidad-morales/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/archivo/archivo.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/archivo/archivo.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/archivo/archivo.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/archivo/archivo.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/categoria_trabajo/categoria_trabajo.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/categoria_trabajo/categoria_trabajo.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/inhumacion/inhumacion.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/inhumacion/inhumacion.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/lote/lote.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/lote/lote.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/noticia/noticia.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/noticia/noticia.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/postulacion/postulacion.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/postulacion/postulacion.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/usuario.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -18,43 +38,52 @@
     <session id="-2959543">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.45" value="3" />
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="hs" value="1" />
-          <entry key="js" value="331" />
-          <entry key="json" value="103" />
+          <entry key="jpg" value="4" />
+          <entry key="js" value="389" />
+          <entry key="json" value="105" />
+          <entry key="png" value="3" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="ECMAScript 6" value="23" />
           <entry key="Haskell" value="1" />
-          <entry key="JSON" value="103" />
-          <entry key="JavaScript" value="331" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Image" value="7" />
+          <entry key="JSON" value="105" />
+          <entry key="JavaScript" value="364" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="13" />
-          <entry key="js" value="19901" />
+          <entry key="js" value="23609" />
           <entry key="json" value="3748" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="ECMAScript 6" value="1035" />
           <entry key="JSON" value="3748" />
-          <entry key="JavaScript" value="19901" />
+          <entry key="JavaScript" value="22574" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -65,29 +94,82 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="276">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/models/seed/categoria_trabajo.json">
+        <entry file="file://$PROJECT_DIR$/server/api/postulacion/postulacion.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="437">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/api/tipo_curso/tipo_curso.route.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/server/api/banner/banner.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/api/tipo_curso/tipo_curso.controller.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/server/api/banner/banner.route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/models/tipo_curso.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/api/postulacion/postulacion.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/api/archivo/archivo.routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/api/archivo/archivo.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -97,6 +179,7 @@
       <find>Persona</find>
       <find>persona</find>
       <find>Archivo</find>
+      <find>ofe</find>
     </findStrings>
     <replaceStrings>
       <replace>Archivo</replace>
@@ -109,21 +192,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/api/tipo_proyecto/tipo_proyecto.route.js" />
-        <option value="$PROJECT_DIR$/server/api/categoria_proyecto/categoria_proyecto.controller.js" />
-        <option value="$PROJECT_DIR$/server/models/seed/categoria_proyecto.json" />
-        <option value="$PROJECT_DIR$/server/models/seed/tipo_proyecto.json" />
-        <option value="$PROJECT_DIR$/server/models/seed/proyecto.json" />
-        <option value="$PROJECT_DIR$/server/api/categoria_trabajo/categoria_trabajo.route.js" />
-        <option value="$PROJECT_DIR$/server/models/seed/categoria_trabajo.json" />
-        <option value="$PROJECT_DIR$/server/models/oferta_trabajo.js" />
-        <option value="$PROJECT_DIR$/server/models/seed/oferta_trabajo.json" />
-        <option value="$PROJECT_DIR$/server/api/postulante/oferta_trabajo.route.js" />
         <option value="$PROJECT_DIR$/server/api/postulacion/oferta_trabajo.route.js" />
         <option value="$PROJECT_DIR$/server/models/seed/postulante.json" />
         <option value="$PROJECT_DIR$/server/models/seed/postulacion.json" />
         <option value="$PROJECT_DIR$/server/api/eventos/evento.route.js" />
-        <option value="$PROJECT_DIR$/server/models/db.js" />
         <option value="$PROJECT_DIR$/server/models/seed/seed-db.js" />
         <option value="$PROJECT_DIR$/server/models/seed/evento.json" />
         <option value="$PROJECT_DIR$/server/api/curso/curso.route.js" />
@@ -133,22 +205,16 @@
         <option value="$PROJECT_DIR$/server/api/curso/curso.controller.js" />
         <option value="$PROJECT_DIR$/server/api/servicio/servicio.controller.js" />
         <option value="$PROJECT_DIR$/server/api/evento/evento.controller.js" />
-        <option value="$PROJECT_DIR$/server/api/inhumacion/inhumacion.controller.js" />
         <option value="$PROJECT_DIR$/server/api/inhumacion/inhumacion.route.js" />
-        <option value="$PROJECT_DIR$/server/api/lote/lote.controller.js" />
         <option value="$PROJECT_DIR$/server/api/lote/lote.route.js" />
-        <option value="$PROJECT_DIR$/server/api/noticia/noticia.controller.js" />
         <option value="$PROJECT_DIR$/server/api/proyecto/proyecto.controller.js" />
         <option value="$PROJECT_DIR$/server/api/proyecto/proyecto.route.js" />
         <option value="$PROJECT_DIR$/server/api/noticia/noticia.route.js" />
-        <option value="$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.route.js" />
-        <option value="$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.controller.js" />
         <option value="$PROJECT_DIR$/server/api/usuario/usuario.route.js" />
         <option value="$PROJECT_DIR$/server/api/usuario/usuario.controller.js" />
         <option value="$PROJECT_DIR$/archivo/createObject.js" />
         <option value="$PROJECT_DIR$/dir.js" />
         <option value="$PROJECT_DIR$/server/api/root/root.js" />
-        <option value="$PROJECT_DIR$/server/api/index.js" />
         <option value="$PROJECT_DIR$/archivo/start.txt" />
         <option value="$PROJECT_DIR$/archivo/infoPublicaObject.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -158,6 +224,23 @@
         <option value="$PROJECT_DIR$/server/api/tryq.js" />
         <option value="$PROJECT_DIR$/server/api/postulacion/postulacion.route.js" />
         <option value="$PROJECT_DIR$/server/models/seed/persona.json" />
+        <option value="$PROJECT_DIR$/server/api/public/public.route.js" />
+        <option value="$PROJECT_DIR$/server/api/public/public_archivo.controller.js" />
+        <option value="$PROJECT_DIR$/server/api/archivo/archivo.routes.js" />
+        <option value="$PROJECT_DIR$/server/utils/url.js" />
+        <option value="$PROJECT_DIR$/server/models/usuario.js" />
+        <option value="$PROJECT_DIR$/server/api/inhumacion/inhumacion.controller.js" />
+        <option value="$PROJECT_DIR$/server/api/lote/lote.controller.js" />
+        <option value="$PROJECT_DIR$/server/api/archivo/archivo.controller.js" />
+        <option value="$PROJECT_DIR$/server/api/categoria_trabajo/categoria_trabajo.route.js" />
+        <option value="$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.route.js" />
+        <option value="$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.controller.js" />
+        <option value="$PROJECT_DIR$/server/api/index.js" />
+        <option value="$PROJECT_DIR$/server/api/noticia/noticia.controller.js" />
+        <option value="$PROJECT_DIR$/server/models/banner.js" />
+        <option value="$PROJECT_DIR$/server/api/banner/banner.route.js" />
+        <option value="$PROJECT_DIR$/server/api/banner/banner.controller.js" />
+        <option value="$PROJECT_DIR$/server/models/db.js" />
         <option value="$PROJECT_DIR$/server/api/postulacion/postulacion.controller.js" />
         <option value="$PROJECT_DIR$/server.js" />
       </list>
@@ -166,6 +249,12 @@
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -180,10 +269,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="959" />
-    <option name="y" value="23" />
-    <option name="width" value="1610" />
-    <option name="height" value="1376" />
+    <option name="x" value="1004" />
+    <option name="y" value="103" />
+    <option name="width" value="1571" />
+    <option name="height" value="1296" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,6 +287,22 @@
             <path>
               <item name="MuniMorales" type="b2602c69:ProjectViewProjectNode" />
               <item name="MuniMorales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MuniMorales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MuniMorales" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MuniMorales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MuniMorales" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MuniMorales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MuniMorales" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,18 +321,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/pdfs" />
       <recent name="$PROJECT_DIR$/server/models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/server/api/public" />
       <recent name="$PROJECT_DIR$/pdfs" />
       <recent name="$PROJECT_DIR$/archivo" />
       <recent name="$PROJECT_DIR$/server/api/eventos" />
-      <recent name="$PROJECT_DIR$/server/api/postulacion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,22 +413,28 @@
       <workItem from="1540066699103" duration="137163000" />
       <workItem from="1540569061585" duration="2424000" />
       <workItem from="1540798320363" duration="265000" />
-      <workItem from="1540809564271" duration="3443000" />
+      <workItem from="1540809564271" duration="4235000" />
+      <workItem from="1540906437536" duration="23792000" />
+      <workItem from="1541013881628" duration="3798000" />
+      <workItem from="1541062911106" duration="12733000" />
+      <workItem from="1541120663825" duration="426000" />
+      <workItem from="1541162716963" duration="1246000" />
+      <workItem from="1542250690025" duration="1412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143295000" />
+    <option name="totallyTimeSpent" value="187494000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="959" y="23" width="1610" height="1376" extended-state="0" />
+    <frame x="1004" y="103" width="1571" height="1296" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.15796098" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16129032" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49932796" visible="true" weight="0.2842679" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49932796" visible="true" weight="0.30315614" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067204" side_tool="true" weight="0.32502225" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -344,261 +457,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/api/lote/lote.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/usuario/usuario.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/usuario/usuario.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/curso/curso.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/curso/curso.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/inhumacion/inhumacion.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/inhumacion/inhumacion.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/lote/lote.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/noticia/noticia.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/noticia/noticia.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/proyecto/proyecto.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/proyecto/proyecto.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/servicio/servicio.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/postulante/postulante.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/postulante/postulante.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/dir.hs" />
-    <entry file="file://$PROJECT_DIR$/server/api/servicio/servicio.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archivo/createObject.js" />
-    <entry file="file://$PROJECT_DIR$/dir.js" />
-    <entry file="file://$PROJECT_DIR$/server/models/seed/proyecto.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/rol/rol.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/seed/archivo.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/root/root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archivo/start.txt" />
-    <entry file="file://$PROJECT_DIR$/archivo/infoPublicaObject.js" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/middleware/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.12.0/core-modules/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2381">
-          <caret line="546" column="14" selection-start-line="546" selection-start-column="14" selection-end-line="546" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/registrar/registrar.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/tryq.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="568" column="17" selection-start-line="568" selection-start-column="17" selection-end-line="568" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/registrar/registrar.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/departamento.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/postulacion/postulacion.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/compra_lote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/evento/evento.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/models/seed/persona.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/seed/categoria_trabajo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/tipo_curso/tipo_curso.route.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/tipo_curso.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -616,22 +478,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/db.js">
+    <entry file="file://$PROJECT_DIR$/server/models/seed/archivo.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="46">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/api/postulacion/postulacion.route.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="322">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/seed/categoria_trabajo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/root/root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/archivos/archivo-1540945858678.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/archivos/archivo-1540973636436.png" />
+    <entry file="file://$PROJECT_DIR$/public/archivos/archivo-1540973465582.png" />
+    <entry file="file://$PROJECT_DIR$/public/archivos/archivo-1540974060171.png" />
+    <entry file="file://$PROJECT_DIR$/server/utils/url.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/public/public_archivo.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/public/public.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/api/tipo_curso/tipo_curso.controller.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/tipo_curso/tipo_curso.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/inhumacion/inhumacion.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/inhumacion/inhumacion.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/eventos.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/curso/curso.controller.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/lote/lote.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/lote/lote.route.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/archivos/archivo-1540977199934.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/archivos/asdfasdf.yoshi.jpg.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/img/noticias/noticias-asdfsadfvvf.jpg" />
+    <entry file="file://$PROJECT_DIR$/server/api/registrar/registrar.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="93" selection-start-line="30" selection-start-column="4" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/categoria_trabajo/categoria_trabajo.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/categoria_trabajo/categoria_trabajo.controller.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/noticia/noticia.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/categoria_proyecto.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/curso.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/seed/seed-db.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/aux.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/oferta_trabajo/oferta_trabajo.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/archivo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/noticia/noticia.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/middleware/middleware.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/postulacion/postulacion.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/banner/banner.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/banner/banner.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/postulacion/postulacion.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/archivo/archivo.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/archivo/archivo.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/tipo_curso.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/municipalidad-morales/0.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -642,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        <state relative-caret-position="276">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>

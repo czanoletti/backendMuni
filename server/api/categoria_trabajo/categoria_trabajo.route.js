@@ -7,6 +7,7 @@ const modelName = 'categoria_trabajo';
 router.get('/:id', BasicQueriesAPI.getById(modelName));
 router.get('/', BasicQueriesAPI.getAll(modelName));
 
+
 router.put('/:id', BasicQueriesAPI.updateById(modelName));
 
 router.delete('/:id',BasicQueriesAPI.deleteById(modelName));

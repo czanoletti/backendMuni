@@ -3,6 +3,7 @@ const models = require('../../models/db');
 
 exports.createPostulacion = (req, res)=>{
     console.log(req.body);
+    console.log(req.file);
 };
 
 exports.queryTryOut = (req, res) => {

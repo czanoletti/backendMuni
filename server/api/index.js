@@ -1,8 +1,10 @@
 // api router will mount other routers
 module.exports = (app) => {
 
+  app.use('/api/public', require('./public/public.route'));
   app.use('/api/registrar', require('./registrar/registrar.route'));
   app.use('/api/ingreso', require('./ingresar/ingresar.routes'));
+  app.use('/api/banner', require('./banner/banner.route'));
   app.use('/api/persona', require('./persona/persona.route'));
   app.use('/api/rol', require('./rol/rol.route'));
   app.use('/api/empleado', require('./empleado/empleado.route'));

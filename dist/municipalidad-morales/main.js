@@ -125,6 +125,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _form_servicio_form_servicio_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./form-servicio/form-servicio.component */ "./src/app/form-servicio/form-servicio.component.ts");
 /* harmony import */ var _form_trabajo_form_trabajo_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./form-trabajo/form-trabajo.component */ "./src/app/form-trabajo/form-trabajo.component.ts");
 /* harmony import */ var _sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./sign-up/sign-up.component */ "./src/app/sign-up/sign-up.component.ts");
+/* harmony import */ var _form_postulacion_form_postulacion_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./form-postulacion/form-postulacion.component */ "./src/app/form-postulacion/form-postulacion.component.ts");
+/* harmony import */ var _form_banner_form_banner_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./form-banner/form-banner.component */ "./src/app/form-banner/form-banner.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -134,6 +136,8 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 // Components
+
+
 
 
 
@@ -188,6 +192,8 @@ var routes = [
             { path: 'proyecto', component: _form_proyecto_form_proyecto_component__WEBPACK_IMPORTED_MODULE_25__["FormProyectoComponent"], outlet: 'forms' },
             { path: 'servicio', component: _form_servicio_form_servicio_component__WEBPACK_IMPORTED_MODULE_26__["FormServicioComponent"], outlet: 'forms' },
             { path: 'trabajo', component: _form_trabajo_form_trabajo_component__WEBPACK_IMPORTED_MODULE_27__["FormTrabajoComponent"], outlet: 'forms' },
+            { path: 'postulacion', component: _form_postulacion_form_postulacion_component__WEBPACK_IMPORTED_MODULE_29__["FormPostulacionComponent"], outlet: 'forms' },
+            { path: 'banner', component: _form_banner_form_banner_component__WEBPACK_IMPORTED_MODULE_30__["FormBannerComponent"], outlet: 'forms' },
             { path: 'registrar', component: _sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_28__["SignUpComponent"], outlet: 'forms' }
         ]
     },
@@ -355,6 +361,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _form_trabajo_form_trabajo_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./form-trabajo/form-trabajo.component */ "./src/app/form-trabajo/form-trabajo.component.ts");
 /* harmony import */ var _form_evento_form_evento_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./form-evento/form-evento.component */ "./src/app/form-evento/form-evento.component.ts");
 /* harmony import */ var _curso_service__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./curso.service */ "./src/app/curso.service.ts");
+/* harmony import */ var _form_postulacion_form_postulacion_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./form-postulacion/form-postulacion.component */ "./src/app/form-postulacion/form-postulacion.component.ts");
+/* harmony import */ var _form_banner_form_banner_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./form-banner/form-banner.component */ "./src/app/form-banner/form-banner.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -371,6 +379,8 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 // Routing
 
 // Components
+
+
 
 
 
@@ -452,7 +462,9 @@ var AppModule = /** @class */ (function () {
                 _form_curso_form_curso_component__WEBPACK_IMPORTED_MODULE_41__["FormCursoComponent"],
                 _form_proyecto_form_proyecto_component__WEBPACK_IMPORTED_MODULE_42__["FormProyectoComponent"],
                 _form_trabajo_form_trabajo_component__WEBPACK_IMPORTED_MODULE_43__["FormTrabajoComponent"],
-                _form_evento_form_evento_component__WEBPACK_IMPORTED_MODULE_44__["FormEventoComponent"]
+                _form_evento_form_evento_component__WEBPACK_IMPORTED_MODULE_44__["FormEventoComponent"],
+                _form_postulacion_form_postulacion_component__WEBPACK_IMPORTED_MODULE_46__["FormPostulacionComponent"],
+                _form_banner_form_banner_component__WEBPACK_IMPORTED_MODULE_47__["FormBannerComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -467,6 +479,59 @@ var AppModule = /** @class */ (function () {
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/archivo.service.ts":
+/*!************************************!*\
+  !*** ./src/app/archivo.service.ts ***!
+  \************************************/
+/*! exports provided: ArchivoService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArchivoService", function() { return ArchivoService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _util_url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/url */ "./src/util/url.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ArchivoService = /** @class */ (function () {
+    function ArchivoService(http) {
+        this.http = http;
+        this.url = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/public/tipos_archivo";
+        this.url2 = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/archivo/crear_archivo";
+    }
+    ArchivoService.prototype.getTiposArchivos = function () {
+        return this.http.get(this.url);
+    };
+    ArchivoService.prototype.createArchivo = function (fd) {
+        return this.http.post(this.url2, fd);
+    };
+    ArchivoService.prototype.getAllCursos = function () {
+        return this.http.get(this.url2);
+    };
+    ArchivoService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
+    ], ArchivoService);
+    return ArchivoService;
 }());
 
 
@@ -607,6 +672,8 @@ var BalastadosComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BannersService", function() { return BannersService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _util_url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/url */ "./src/util/url.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -617,37 +684,27 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var BannersService = /** @class */ (function () {
-    function BannersService() {
-        this.slides = {
-            name: "banner-intro",
-            slides: [
-                {
-                    title: "Feria del Niño",
-                    description: "De un momento de alegría y diversión disfrutaron cientos de niños de Morales, Izabal, que participaron en las actividades de celebración del Día del Niño.",
-                    src: "../assets/mock-carousel-1.jpg"
-                },
-                {
-                    title: "Fiesta patronal",
-                    description: "Durante la fiesta patronal del municipio de Morales en Izabal, se realizan diversas actividades populares y religiosas propias de esa región.",
-                    src: "../assets/mock-carousel-2.jpg"
-                },
-                {
-                    title: "Miss Morales",
-                    description: "Se realiza competencia principalmente basada en la belleza física de sus participantes, incorporando a veces cualidades como la personalidad y el talento.",
-                    src: "../assets/mock-carousel-3.jpg"
-                }
-            ]
-        };
+    function BannersService(http) {
+        this.http = http;
+        this.url = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/banner";
     }
-    BannersService.prototype.getInfo = function () {
-        return this.slides;
+    BannersService.prototype.getBanners = function () {
+        return this.http.get(this.url);
+    };
+    BannersService.prototype.uploadBanner = function (banner) {
+        return this.http.post(this.url, banner);
+    };
+    BannersService.prototype.deleteBannerById = function (id) {
+        return this.http.delete(this.url + ("/" + id));
     };
     BannersService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
     ], BannersService);
     return BannersService;
 }());
@@ -663,7 +720,7 @@ var BannersService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ":host ::ng-deep .carousel{\n  width:80%;\n  margin-left:auto;\n  margin-right:auto;\n  margin-top:20px;\n}\n:host ::ng-deep .carousel{\n  width:80%;\n  margin-left:auto;\n  margin-right:auto;\n  margin-top:20px;\n}\n@media only screen and (max-width: 600px) {\n    :host ::ng-deep .carousel{\n      width:100%;\n    }\n}\n"
+module.exports = ":host ::ng-deep .carousel{\n  width:80%;\n  max-height: 600px;\n  margin-left:auto;\n  margin-right:auto;\n  margin-top:20px;\n}\n:host ::ng-deep .carousel{\n  width:80%;\n  max-height: 600px;\n  margin-left:auto;\n  margin-right:auto;\n  margin-top:20px;\n}\n@media only screen and (max-width: 600px) {\n    :host ::ng-deep .carousel{\n      width:100%;\n    }\n}\n"
 
 /***/ }),
 
@@ -702,15 +759,16 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var BannersComponent = /** @class */ (function () {
-    function BannersComponent(banner) {
-        this.banner = banner;
+    function BannersComponent(bannerService) {
+        this.bannerService = bannerService;
     }
     BannersComponent.prototype.ngOnInit = function () {
-        console.log(this.banner);
-        this.slides = this.getInfoSlides();
+        this.getInfoSlides();
     };
     BannersComponent.prototype.getInfoSlides = function () {
-        return this.banner.getInfo();
+        var _this = this;
+        this.bannerService.getBanners()
+            .subscribe(function (banners) { return _this.slides = banners; });
     };
     BannersComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -745,7 +803,7 @@ module.exports = ".carousel-caption{\n\n  /* Permalink - use to edit and share t
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"{{slides.name}}\" class=\"carousel slide\" data-ride=\"carousel\">\n\n  <ol class=\"carousel-indicators\">\n    <li *ngFor=\"let slide of slides.slides; let i = index\"\n      [attr.data-target]=\" '#' + slides.name \"\n      [attr.data-slide-to]=\"i\"\n      [ngClass]=\"i == 0 ? 'active' : ''\">\n    </li>\n  </ol>\n\n  <div class=\"carousel-inner\">\n    <div *ngFor=\"let slide of slides.slides; let k = index\"\n      [ngClass]=\"k == 0 ? 'carousel-item active': 'carousel-item'\">\n\n      <img class=\"mx-auto d-block w-100\" src=\"{{slide.src}}\" alt=\"First slide\">\n      <!-- <div class=\"carousel-caption d-none d-md-block\">\n        <h5>{{slide.title}}</h5>\n        <p class=\"d-sm-none d-md-block\">{{slide.description}}</p>\n      </div> -->\n\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div id=\"{{slides.name}}\" class=\"carousel slide\" data-ride=\"carousel\">\n\n  <ol class=\"carousel-indicators\">\n    <li *ngFor=\"let slide of slides; let i = index\"\n      [attr.data-target]=\" '#' + slides.name \"\n      [attr.data-slide-to]=\"i\"\n      [ngClass]=\"i == 0 ? 'active' : ''\">\n    </li>\n  </ol>\n\n  <div class=\"carousel-inner\">\n    <div *ngFor=\"let slide of slides; let k = index\"\n      [ngClass]=\"k == 0 ? 'carousel-item active': 'carousel-item'\">\n\n      <img class=\"mx-auto d-block w-100\" src=\"{{slide.url_banner}}\" alt=\"First slide\">\n      <!-- <div class=\"carousel-caption d-none d-md-block\">\n        <h5>{{slide.title}}</h5>\n        <p class=\"d-sm-none d-md-block\">{{slide.description}}</p>\n      </div> -->\n\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -824,12 +882,16 @@ var CursoService = /** @class */ (function () {
         this.http = http;
         this.url = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/curso/crear_curso";
         this.url2 = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/curso";
+        this.url3 = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/tipo_curso";
     }
     CursoService.prototype.createCursos = function (curso) {
         return this.http.post(this.url, curso);
     };
     CursoService.prototype.getAllCursos = function () {
         return this.http.get(this.url2);
+    };
+    CursoService.prototype.getCursoTipos = function () {
+        return this.http.get(this.url3);
     };
     CursoService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -1224,7 +1286,7 @@ module.exports = ".row-striped:nth-of-type(odd){\n  background-color: #efefef;\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mb-5 container\">\n\n\t<div class=\"row\">\n\n\t\t<div class=\"col-sm-12\">\n\t\t\t<div *ngFor=\"let event of events\" class=\"row row-striped\">\n\t\t\t\t<div class=\"col-2 text-right\">\n\t\t\t\t\t<h1 class=\"display-4\"><span class=\"badge badge-secondary\">{{event.dayNumber}}</span></h1>\n\t\t\t\t\t<h2>{{event.month}}</h2>\n\t\t\t\t\t<!-- <h6 *ngIf=\"event.ends\"><span class=\"badge badge-warning\">Hasta - {{event.ends}}</span></h6> -->\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-10\">\n\t\t\t\t\t<h3 class=\"text-uppercase\"><strong>{{event.title}}</strong></h3>\n\t\t\t\t\t<ul class=\"list-inline\">\n\t\t\t\t\t    <li class=\"list-inline-item\"><i class=\"mdi mdi-calendar\" aria-hidden=\"true\"></i>{{event.day}}</li>\n\t\t\t\t\t\t<li class=\"list-inline-item\"><i class=\"mdi mdi-clock-outline\" aria-hidden=\"true\"></i> {{event.timeBegin}} - {{event.timeEnd}}</li>\n\t\t\t\t\t\t<li class=\"list-inline-item\"><i class=\"mdi mdi-arrow-top-right-thick\" aria-hidden=\"true\"></i>{{event.place}}</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<p>{{event.Description}}</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\n\t</div>\n\n</div>\n"
+module.exports = "<div class=\"mb-5 container\">\n\n\t<div class=\"row\">\n\n\t\t<div class=\"col-sm-12\">\n\n\t\t\t<div *ngFor=\"let event of events\" class=\"row row-striped\">\n\t\t\t\t<div class=\"col-2 text-right\">\n\t\t\t\t\t<h1 class=\"display-4\"><span class=\"badge badge-secondary\">{{event.fecha_evento}}</span></h1>\n\t\t\t\t\t<!--<h2>{{event.month}}</h2>-->\n\t\t\t\t\t<!-- <h6 *ngIf=\"event.ends\"><span class=\"badge badge-warning\">Hasta - {{event.ends}}</span></h6> -->\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-10\">\n\t\t\t\t\t<h3 class=\"text-uppercase\"><strong>{{event.titulo_evento}}</strong></h3>\n\t\t\t\t\t<ul class=\"list-inline\">\n            <!--<li class=\"list-inline-item\"><i class=\"mdi mdi-calendar\" aria-hidden=\"true\"></i>{{event.day}}</li>-->\n\t\t\t\t\t\t<li class=\"list-inline-item\"><i class=\"mdi mdi-clock-outline\" aria-hidden=\"true\"></i> {{event.hora_evento}}</li>\n\t\t\t\t\t\t<!--<li class=\"list-inline-item\"><i class=\"mdi mdi-arrow-top-right-thick\" aria-hidden=\"true\"></i>{{event.place}}</li>-->\n\t\t\t\t\t</ul>\n\t\t\t\t\t<p>{{event.descripcion_evento}}</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t</div>\n\n\n\t</div>\n\n</div>\n"
 
 /***/ }),
 
@@ -1256,10 +1318,12 @@ var EventsComponent = /** @class */ (function () {
         this.eventService = eventService;
     }
     EventsComponent.prototype.ngOnInit = function () {
-        this.events = this.getInfoEvents();
+        this.getInfoEvents();
     };
     EventsComponent.prototype.getInfoEvents = function () {
-        return this.eventService.getInfoEvents();
+        var _this = this;
+        return this.eventService.getInfoEvents()
+            .subscribe(function (events) { return _this.events = events; });
     };
     EventsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1357,7 +1421,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Subir Archivos</h1>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"form-nombre\">Primer Nombre</label>\n    <input required [(ngModel)]=\"formData.p_nombre1\" name=\"p_nombre1\" type=\"text\" class=\"form-control\" id=\"form-nombre\" placeholder=\"Primer Nombre\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-segundo-nombre\">Segundo Nombre</label>\n    <input [(ngModel)]=\"formData.p_nombre2\" name=\"p_nombre2\" type=\"text\" class=\"form-control\" id=\"form-segundo-nombre\" placeholder=\"Segundo Nombre\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-primer-apellido\">Primer Apellido</label>\n    <input [(ngModel)]=\"formData.p_apellido1\" name=\"p_apellido1\" type=\"text\" class=\"form-control\" id=\"form-primer-apellido\" placeholder=\"Primer Apellido\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-segundo-apellido\">Segundo Apellido</label>\n    <input [(ngModel)]=\"formData.p_apellido2\" name=\"p_apellido2\" type=\"text\" class=\"form-control\" id=\"form-segundo-apellido\" placeholder=\"Segundo Apellido\">\n  </div>\n\n\n  <button (click)=\"submitForm()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</form>\n\n"
+module.exports = "\n<div class=\"animated fadeInLeft\">\n<h1>Subir Archivos</h1>\n\n  <form enctype=\"multipart/form-data\" >\n\n    <div class=\"form-group\">\n      <label for=\"nombre_archivo\">Nombre del archivo</label>\n      <input required [(ngModel)]=\"archivoData.nombre_archivo\" name=\"nombre_archivo\" type=\"text\" class=\"form-control\" id=\"nombre_archivo\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"descripcion\">Nombre del archivo</label>\n      <input required [(ngModel)]=\"archivoData.descripcion\" name=\"descripcion\" type=\"text\" class=\"form-control\" id=\"descripcion\" placeholder=\"\">\n    </div>\n\n\n    <div class=\"form-group\">\n      <label for=\"id_tipo_archivo\">Tipo de archivo</label>\n      <select [(ngModel)]=\"archivoData.id_tipo_archivo\" name=\"id_tipo_archivo\" class=\"form-control\" id=\"id_tipo_archivo\">\n        <option *ngFor=\"let arch of tipos_archivo\" [ngValue]=\"arch.id_tipo_archivo\">{{arch.tipo_archivo}}</option>\n\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"url_archivo\">Elegir Archivo</label>\n      <input (change)=\"onFileSelected($event)\" type=\"file\" name=\"archivo\" class=\"form-control-file\" id=\"url_archivo\">\n    </div>\n\n\n    <button (click)=\"submitForm()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      {{response}}\n      Éxito se a guardado Archivo detalles:\n      <p class=\"\" >Nombre del Archivo: {{response.nombre_archivo}}</p>\n      <p class=\"\" >Descripcion: {{response.descripcion}}</p>\n      <p class=\"\" >Empleado: {{response.id_empleado }} </p>\n      <p class=\"\" >Tipo de archivo: {{response.id_tipo_archivo }}</p>\n      <p class=\"\" >link: <a target=\"_blank\" href=\"{{response.url_archivo}}\">Ir a documento</a></p>\n      <p>Nota: hay tipos de archivo que se descargan envés de verse en pantalla. Ejemplo: docx, xls</p>\n    </div>\n  </ng-container>\n</div>\n\n"
 
 /***/ }),
 
@@ -1372,6 +1436,7 @@ module.exports = "<h1>Subir Archivos</h1>\n\n<form>\n  <div class=\"form-group\"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormArchivoComponent", function() { return FormArchivoComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _archivo_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../archivo.service */ "./src/app/archivo.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1382,10 +1447,42 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var FormArchivoComponent = /** @class */ (function () {
-    function FormArchivoComponent() {
+    function FormArchivoComponent(archivoService) {
+        this.archivoService = archivoService;
+        this.archivoData = {};
+        this.SelectedFile = null;
     }
     FormArchivoComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.getTiposArchivo()
+            .subscribe(function (archivos) {
+            _this.tipos_archivo = archivos;
+        });
+    };
+    FormArchivoComponent.prototype.submitForm = function () {
+        var _this = this;
+        console.log(this.archivoData);
+        var fd = new FormData();
+        fd.append('archivo', this.SelectedFile, this.SelectedFile.name);
+        fd.append('nombre_archivo', this.archivoData.nombre_archivo);
+        fd.append('descripcion', this.archivoData.descripcion);
+        fd.append('id_tipo_archivo', this.archivoData.id_tipo_archivo);
+        console.log(fd);
+        this.archivoService.createArchivo(fd)
+            .subscribe(function (res) {
+            _this.response = res;
+        }, function (err) {
+            _this.error = err;
+        });
+    };
+    FormArchivoComponent.prototype.onFileSelected = function (event) {
+        console.log(event);
+        this.SelectedFile = event.target.files[0];
+    };
+    FormArchivoComponent.prototype.getTiposArchivo = function () {
+        return this.archivoService.getTiposArchivos();
     };
     FormArchivoComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1393,9 +1490,99 @@ var FormArchivoComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./form-archivo.component.html */ "./src/app/form-archivo/form-archivo.component.html"),
             styles: [__webpack_require__(/*! ./form-archivo.component.css */ "./src/app/form-archivo/form-archivo.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_archivo_service__WEBPACK_IMPORTED_MODULE_1__["ArchivoService"]])
     ], FormArchivoComponent);
     return FormArchivoComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/form-banner/form-banner.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/form-banner/form-banner.component.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/form-banner/form-banner.component.html":
+/*!********************************************************!*\
+  !*** ./src/app/form-banner/form-banner.component.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Imagen</h1>\n\n  <form>\n\n\n    <div class=\"form-group\">\n      <label for=\"url_archivo\">Subir Imagen</label>\n      <input (change)=\"onFileSelected($event)\" type=\"file\" name=\"archivo\" class=\"form-control-file\" id=\"url_archivo\">\n    </div>\n\n\n\n    <button (click)=\"uploadBanner()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <ng-container *ngIf=\"success\">\n    <p class=\"bg-light\">Banner subido</p>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"Banner\">\n\n    <div class=\"row\">\n      <div *ngIf=\"exitoBorrar\" class=\"col-sm-12 bg-info\">{{exitoBorrar}}</div>\n      <div *ngFor=\"let ban of Banner\" class=\"col-sm-12 col-md-6 col-lg-4\">\n        <img src=\"{{ban.url_banner}}\" class=\"img-fluid img-thumbnail mt-3 mb-3\" alt=\"\">\n        <button (click)=\"deleteBanner(ban.id_banner)\" class=\"btn btn-danger\">Borrar Banner</button>\n      </div>\n    </div>\n\n\n  </ng-container>\n\n\n\n\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/form-banner/form-banner.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/form-banner/form-banner.component.ts ***!
+  \******************************************************/
+/*! exports provided: FormBannerComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormBannerComponent", function() { return FormBannerComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _banners_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../banners.service */ "./src/app/banners.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var FormBannerComponent = /** @class */ (function () {
+    function FormBannerComponent(bannerService) {
+        this.bannerService = bannerService;
+    }
+    FormBannerComponent.prototype.ngOnInit = function () {
+        this.getBanners();
+    };
+    FormBannerComponent.prototype.getBanners = function () {
+        var _this = this;
+        this.bannerService.getBanners()
+            .subscribe(function (banner) { _this.Banner = banner; });
+    };
+    FormBannerComponent.prototype.uploadBanner = function () {
+        var _this = this;
+        var fd = new FormData();
+        fd.append('img', this.SelectedFile, this.SelectedFile.name);
+        this.bannerService.uploadBanner(fd)
+            .subscribe(function (banner) { _this.success = banner; }, function (err) { return console.log(err); });
+    };
+    FormBannerComponent.prototype.onFileSelected = function (event) {
+        console.log(event);
+        this.SelectedFile = event.target.files[0];
+    };
+    FormBannerComponent.prototype.deleteBanner = function (id) {
+        var _this = this;
+        this.bannerService.deleteBannerById(id)
+            .subscribe(function (banner) {
+            _this.exitoBorrar = 'Se ha borrado con exito';
+        });
+    };
+    FormBannerComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-form-banner',
+            template: __webpack_require__(/*! ./form-banner.component.html */ "./src/app/form-banner/form-banner.component.html"),
+            styles: [__webpack_require__(/*! ./form-banner.component.css */ "./src/app/form-banner/form-banner.component.css")]
+        }),
+        __metadata("design:paramtypes", [_banners_service__WEBPACK_IMPORTED_MODULE_1__["BannersService"]])
+    ], FormBannerComponent);
+    return FormBannerComponent;
 }());
 
 
@@ -1409,7 +1596,7 @@ var FormArchivoComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".navBack{\n  background-color:#0277bd !important;\n}\n\n.active{\n  background-color:white;\n}\n"
+module.exports = "\n\n.active{\n  background-color:white;\n}\n"
 
 /***/ }),
 
@@ -1420,7 +1607,7 @@ module.exports = ".navBack{\n  background-color:#0277bd !important;\n}\n\n.activ
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container\">\n\n  <h1 class=\"text-center mt-5 mb-5\">Actualización de Información Pública </h1>\n\n  <div class=\"row\">\n    <div class=\"navBack col-sm-12 col-md-3\">\n        <ul class=\"nav nav-pills nav-fill\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[ { outlets: { forms: 'registrar' } }]\">\n            Registro de Empleado\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['curso'] } }]\">\n            Nuevo Curso\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['evento'] } }]\">\n            Nuevo Evento\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['inhumacion'] } }]\">\n            Inhumacion\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['lote'] } }]\">\n            Registro de Lote\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['noticia'] } }]\">\n            Actualización Noticia\n          </a>\n        </li>\n\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['proyecto'] } }]\">\n            Regitrar Nuevo Proyecto\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['servicio'] } }]\">\n            Nuevo Servicio\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['trabajo'] } }]\">\n            Oferta Trabajo\n          </a>\n        </li>\n\n\n      </ul>\n    </div>\n\n    <div class=\"col-sm-12 col-md-9\">\n      <router-outlet name=\"forms\"></router-outlet>\n    </div>\n\n  </div>\n\n</div>\n\n"
+module.exports = "\n<div class=\"container\">\n\n  <h1 class=\"text-center mt-5 mb-5\">Actualización de Información Pública </h1>\n\n  <div class=\"row\">\n    <div class=\"navBack col-sm-12 col-md-3\">\n        <ul class=\"nav nav-pills nav-fill\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[ { outlets: { forms: 'registrar' } }]\">\n            Registro de Empleado\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['curso'] } }]\">\n            Nuevo Curso\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['evento'] } }]\">\n            Nuevo Evento\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['inhumacion'] } }]\">\n            Inhumacion\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['lote'] } }]\">\n            Registrar Lote\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['noticia'] } }]\">\n            Registrar Noticia\n          </a>\n        </li>\n\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['proyecto'] } }]\">\n            Registrar Nuevo Proyecto\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['servicio'] } }]\">\n            Nuevo Servicio\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['trabajo'] } }]\">\n            Oferta Trabajo\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['archivo'] } }]\">\n            Subir Archivo\n\n          </a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['postulacion'] } }]\">\n            Subir Postulación\n\n          </a>\n        </li>\n\n        <li class=\"nav-item\">\n          <a class=\"nav-link\"\n             [routerLinkActive]=\"['active']\"\n             [routerLink]=\"[{ outlets: {forms: ['banner'] } }]\">\n            Administrar Banner\n\n          </a>\n        </li>\n\n\n      </ul>\n    </div>\n\n    <div class=\"col-sm-12 col-md-9\">\n      <router-outlet name=\"forms\"></router-outlet>\n    </div>\n\n  </div>\n\n</div>\n\n"
 
 /***/ }),
 
@@ -1483,7 +1670,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"animated fadeInLeft\">\n<h1>Subir Curso</h1>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"form-1\">Nombre del Curso</label>\n    <input required [(ngModel)]=\"cursoInfo.nombre_curso\" name=\"nombre_curso\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"Nombre del Curso\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-2\">Descripcion de Curso</label>\n    <input [(ngModel)]=\"cursoInfo.descripcion_curso\" name=\"descripcion_curso\" type=\"text\" class=\"form-control\" id=\"form-2\" placeholder=\"Segundo Nombre\">\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"form-3\">Tipo de Curso</label>\n    <select [(ngModel)]=\"cursoInfo.id_tipo_curso\" name=\"id_tipo_curso\" class=\"form-control\" id=\"form-3\">\n      <option [ngValue]=\"1\">Cocina</option>\n      <option [ngValue]=\"2\">Crecimiento Personal</option>\n      <option [ngValue]=\"3\">Construcción</option>\n    </select>\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"form-4\">Fecha de inicio</label>\n    <input [(ngModel)]=\"cursoInfo.fecha_inicio_curso\" name=\"fecha_inicio_curso\" type=\"date\" class=\"form-control\" id=\"form-4\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-5\">Fecha fecha final</label>\n    <input [(ngModel)]=\"cursoInfo.fecha_fin_curso\" name=\"fecha_fin_curso\" type=\"date\" class=\"form-control\" id=\"form-5\">\n  </div>\n\n\n  <button (click)=\"createCurso()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</form>\n\n  <button (click)=\"getAllCursos()\" type=\"button\" class=\"btn btn-primary\">Ver Todos los cursos</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"cursos\">\n    <div *ngFor=\"let curso of cursos\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>Nombre del curso: {{curso.nombre_curso}}</p>\n      <p>Descripcion del curso: {{curso.descripcion_curso}}</p>\n      <p>Fecha Inicio: {{curso.fecha_inicio_curso}}</p>\n      <p>Fecha Final: {{curso.fecha_fin_curso}}</p>\n      <p>id_empleado: {{curso.id_empleado}}</p>\n      <p>id_empleado: {{curso.id_tipo_curso}}</p>\n    </div>\n  </ng-container>\n\n\n</div>\n"
+module.exports = "\n<div class=\"animated fadeInLeft\">\n<h1>Subir Curso</h1>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"form-1\">Nombre del Curso</label>\n    <input required [(ngModel)]=\"cursoInfo.nombre_curso\" name=\"nombre_curso\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-2\">Descripcion de Curso</label>\n    <textarea rows=\"5\" [(ngModel)]=\"cursoInfo.descripcion_curso\" name=\"descripcion_curso\" type=\"text\" class=\"form-control\" id=\"form-2\" placeholder=\"\"></textarea>\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"form-3\">Tipo de Curso</label>\n    <select [(ngModel)]=\"cursoInfo.id_tipo_curso\" name=\"id_tipo_curso\" class=\"form-control\" id=\"form-3\">\n      <option *ngFor=\"let tipo of tipos_cursos\" [ngValue]=\"tipo.id_tipo_curso\">{{tipo.tipo_curso}}</option>\n    </select>\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"form-4\">Fecha de inicio</label>\n    <input [(ngModel)]=\"cursoInfo.fecha_inicio_curso\" name=\"fecha_inicio_curso\" type=\"date\" class=\"form-control\" id=\"form-4\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-5\">Fecha fecha final</label>\n    <input [(ngModel)]=\"cursoInfo.fecha_fin_curso\" name=\"fecha_fin_curso\" type=\"date\" class=\"form-control\" id=\"form-5\">\n  </div>\n\n\n  <button (click)=\"createCurso()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</form>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n\n\n\n</div>\n"
 
 /***/ }),
 
@@ -1516,6 +1703,11 @@ var FormCursoComponent = /** @class */ (function () {
         this.cursoInfo = {};
     }
     FormCursoComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.getTiposCurso()
+            .subscribe(function (tipo) {
+            _this.tipos_cursos = tipo;
+        });
     };
     FormCursoComponent.prototype.getAllCursos = function () {
         var _this = this;
@@ -1534,6 +1726,9 @@ var FormCursoComponent = /** @class */ (function () {
             console.log(err);
             _this.error = err;
         });
+    };
+    FormCursoComponent.prototype.getTiposCurso = function () {
+        return this.cursoService.getCursoTipos();
     };
     FormCursoComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1568,7 +1763,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Evento</h1>\n\n  <form>\n\n    <div class=\"form-group\">\n      <label for=\"form-1\">Titulo de evento</label>\n      <input required [(ngModel)]=\"EventoInfo.titulo_evento\" name=\"titulo_evento\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"Titulo evento\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-2\">Descripción de Evento</label>\n      <input required [(ngModel)]=\"EventoInfo.descripcion_evento\" name=\"descripcion_evento\" type=\"text\"  class=\"form-control\" id=\"form-2\" placeholder=\"Describir evento\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Fecha de Evento</label>\n      <input required [(ngModel)]=\"EventoInfo.fecha_evento\" name=\"fecha_evento\" type=\"date\" class=\"form-control\" id=\"form-3\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-4\">Hora de Evento</label>\n      <input required [(ngModel)]=\"EventoInfo.hora_evento\" name=\"hora_evento\" type=\"time\"  class=\"form-control\" id=\"form-4\" >\n    </div>\n\n\n    <button (click)=\"createEvento()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <button (click)=\"getAllEvento()\" type=\"button\" class=\"btn btn-primary\">Ver Todos los Eventos</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado un servicio, detalles:\n      <p class=\"alert-primary\" >Titulo evento: {{response.titulo_evento}}</p>\n      <p class=\"alert-primary\" >Descripcion evento: {{response.descripcion_evento}}</p>\n      <p class=\"alert-primary\" >Fecha Evento: {{response.fecha_evento }} </p>\n      <p class=\"alert-primary\" >Hora Evento: {{response.hora_evento }} </p>\n\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"eventos\">\n    <div *ngFor=\"let evento of eventos\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>Titulo evento: {{evento.titulo_evento}}</p>\n      <p>Descripcion evento: {{evento.descripcion_evento}}</p>\n      <p>Fecha Evento: {{evento.fecha_evento }}</p>\n      <p>Hora evento: {{evento.hora_evento}}</p>\n      <p>Empleado: {{evento.id_empleado }}</p>\n    </div>\n  </ng-container>\n\n\n</div>\n\n"
+module.exports = "\n\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Evento</h1>\n\n  <form>\n\n    <div class=\"form-group\">\n      <label for=\"form-1\">Titulo de evento</label>\n      <input required [(ngModel)]=\"EventoInfo.titulo_evento\" name=\"titulo_evento\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"Titulo evento\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-2\">Descripción de Evento</label>\n      <input required [(ngModel)]=\"EventoInfo.descripcion_evento\" name=\"descripcion_evento\" type=\"text\"  class=\"form-control\" id=\"form-2\" placeholder=\"Describir evento\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Fecha de Evento</label>\n      <input required [(ngModel)]=\"EventoInfo.fecha_evento\" name=\"fecha_evento\" type=\"date\" class=\"form-control\" id=\"form-3\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-4\">Hora de Evento</label>\n      <input required [(ngModel)]=\"EventoInfo.hora_evento\" name=\"hora_evento\" type=\"time\"  class=\"form-control\" id=\"form-4\" >\n    </div>\n\n\n    <button (click)=\"createEvento()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado un servicio, detalles:\n      <p class=\"alert-primary\" >Titulo evento: {{response.titulo_evento}}</p>\n      <p class=\"alert-primary\" >Descripcion evento: {{response.descripcion_evento}}</p>\n      <p class=\"alert-primary\" >Fecha Evento: {{response.fecha_evento }} </p>\n      <p class=\"alert-primary\" >Hora Evento: {{response.hora_evento }} </p>\n\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n\n</div>\n\n"
 
 /***/ }),
 
@@ -1654,7 +1849,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Inhumacion</h1>\n\n  <form>\n    <div class=\"form-group\">\n      <label for=\"form-1\">Nombre del Curso</label>\n      <input required [(ngModel)]=\"InhumacionInfo.nombre_curso\" name=\"nombre_curso\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"Nombre del Curso\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"form-2\">Descripcion de Curso</label>\n      <input [(ngModel)]=\"InhumacionInfo.descripcion_curso\" name=\"descripcion_curso\" type=\"text\" class=\"form-control\" id=\"form-2\" placeholder=\"Segundo Nombre\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Tipo de Curso</label>\n      <select [(ngModel)]=\"InhumacionInfo.id_tipo_curso\" name=\"id_tipo_curso\" class=\"form-control\" id=\"form-3\">\n        <option [ngValue]=\"1\">Cocina</option>\n        <option [ngValue]=\"2\">Crecimiento Personal</option>\n        <option [ngValue]=\"3\">Construcción</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-4\">Fecha de inicio</label>\n      <input [(ngModel)]=\"InhumacionInfo.fecha_inicio_curso\" name=\"fecha_inicio_curso\" type=\"date\" class=\"form-control\" id=\"form-4\">\n    </div>\n\n\n    <button (click)=\"createInhumacion()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <button (click)=\"getAllInhumacion()\" type=\"button\" class=\"btn btn-primary\">Ver Todas las Inhumaciones</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"inhumaciones\">\n    <div *ngFor=\"let inhumacion of inhumaciones\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>Empleado: {{inhumacion.id_empleado}}</p>\n      <p>Cliente Inhumacion: {{inhumacion.id_cliente_inhumacion}}</p>\n\n    </div>\n  </ng-container>\n\n\n</div>\n\n\n"
+module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Inhumacion</h1>\n\n  <form>\n    <h3>Información Personal</h3>\n\n    <div class=\"form-group\">\n      <label for=\"form-nombre\">Primer Nombre</label>\n      <input required [(ngModel)]=\"LoteInfo.p_nombre1\" name=\"p_nombre1\" type=\"text\" class=\"form-control\" id=\"form-nombre\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-segundo-nombre\">Segundo Nombre</label>\n      <input [(ngModel)]=\"LoteInfo.p_nombre2\" name=\"p_nombre2\" type=\"text\" class=\"form-control\" id=\"form-segundo-nombre\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-primer-apellido\">Primer Apellido</label>\n      <input [(ngModel)]=\"LoteInfo.p_apellido1\" name=\"p_apellido1\" type=\"text\" class=\"form-control\" id=\"form-primer-apellido\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-segundo-apellido\">Segundo Apellido</label>\n      <input [(ngModel)]=\"LoteInfo.p_apellido2\" name=\"p_apellido2\" type=\"text\" class=\"form-control\" id=\"form-segundo-apellido\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-dpi\">CUI de DPI</label>\n      <input [(ngModel)]=\"LoteInfo.p_DPI\" name=\"p_DPI\" required pattern=\"^\\d{13}$\" type=\"number\" class=\"form-control\" id=\"form-dpi\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"nit\">NIT</label>\n      <input [(ngModel)]=\"LoteInfo.p_NIT\" name=\"p_NIT\" pattern=\"^\\d{10}$\" type=\"number\" class=\"form-control\" id=\"nit\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"telefono\">Número de Teléfono</label>\n      <input [(ngModel)]=\"LoteInfo.p_telefono\" name=\"p_telefono\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"telefono\" placeholder=\"\" required>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"celular\">Número de celular</label>\n      <input [(ngModel)]=\"LoteInfo.p_celular\" name=\"p_celular\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"celular\" placeholder=\"\" required>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"email\">Email</label>\n      <input [(ngModel)]=\"LoteInfo.email\" name=\"email\" type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"\" required>\n    </div>\n\n\n\n    <div class=\"form-group\">\n      <label for=\"dirección\">Dirección</label>\n      <input [(ngModel)]=\"LoteInfo.p_direccion\" name=\"p_direccion\" type=\"text\" class=\"form-control\" id=\"dirección\" placeholder=\"Barrio Los Castro, Frente al Parque Municipal\">\n    </div>\n\n\n    <div class=\"form-group\">\n      <label for=\"bday\">Fecha de nacimiento</label>\n      <input [(ngModel)]=\"LoteInfo.p_fecha_nacimiento\" name=\"p_fecha_nacimiento\" type=\"date\" class=\"form-control\" id=\"bday\">\n    </div>\n\n\n\n    <div class=\"form-group\">\n      <label for=\"relacion_inhumacion\">Relación inhumación</label>\n      <input [(ngModel)]=\"LoteInfo.relacion_inhumacion\" name=\"relacion_inhumacion\" type=\"text\" class=\"form-control\" id=\"relacion_inhumacion\" placeholder=\"\">\n    </div>\n\n    <button (click)=\"createInhumacion()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado la inhumación detalles:\n      <p class=\"alert-primary\" >nombre de la persona: {{response.p_nombre1}}</p>\n      <p class=\"alert-primary\" >Descripción: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n\n\n</div>\n\n\n"
 
 /***/ }),
 
@@ -1684,7 +1879,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var FormInhumacionComponent = /** @class */ (function () {
     function FormInhumacionComponent(inhumacionService) {
         this.inhumacionService = inhumacionService;
-        this.InhumacionInfo = {};
+        this.LoteInfo = {};
     }
     FormInhumacionComponent.prototype.ngOnInit = function () {
     };
@@ -1697,8 +1892,8 @@ var FormInhumacionComponent = /** @class */ (function () {
     };
     FormInhumacionComponent.prototype.createInhumacion = function () {
         var _this = this;
-        console.log(this.InhumacionInfo);
-        this.inhumacionService.createInhumacion(this.InhumacionInfo)
+        console.log(this.LoteInfo);
+        this.inhumacionService.createInhumacion(this.LoteInfo)
             .subscribe(function (inhumacion) {
             _this.error = null;
             _this.response = inhumacion;
@@ -1740,7 +1935,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Compra de Lote</h1>\n\n  <form>\n\n    <div class=\"form-group\">\n      <label for=\"form-1\">Nombre del Curso</label>\n      <input required [(ngModel)]=\"LoteInfo.nombre_curso\" name=\"nombre_curso\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"Nombre del Curso\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"form-2\">Descripcion de Curso</label>\n      <input [(ngModel)]=\"LoteInfo.descripcion_curso\" name=\"descripcion_curso\" type=\"text\" class=\"form-control\" id=\"form-2\" placeholder=\"Segundo Nombre\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Tipo de Curso</label>\n      <select [(ngModel)]=\"LoteInfo.id_tipo_curso\" name=\"id_tipo_curso\" class=\"form-control\" id=\"form-3\">\n        <option [ngValue]=\"1\">Cocina</option>\n        <option [ngValue]=\"2\">Crecimiento Personal</option>\n        <option [ngValue]=\"3\">Construcción</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-4\">Fecha de inicio</label>\n      <input [(ngModel)]=\"LoteInfo.fecha_inicio_curso\" name=\"fecha_inicio_curso\" type=\"date\" class=\"form-control\" id=\"form-4\">\n    </div>\n\n\n    <button (click)=\"createLote()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n\n  </form>\n\n  <button (click)=\"getAllLote()\" type=\"button\" class=\"btn btn-primary\">Ver Todas las Inhumaciones</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"lotes\">\n    <div *ngFor=\"let lote of lotes\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>recibo Lote: {{lote.recibo_lote}}</p>\n      <p>Licencia: {{lote.licencia_construccion}}</p>\n      <p>Fecha compra: {{lote.fecha_compra}}</p>\n      <p>Observacion: {{lote.observacion}}</p>\n      <p>empleado: {{lote.id_empleado}}</p>\n      <p>Observacion: {{lote.id_cliente_lote}}</p>\n      <p>Observacion: {{lote.id_lote}}</p>\n\n    </div>\n  </ng-container>\n\n\n</div>\n\n\n"
+module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Compra de Lote</h1>\n\n  <form>\n\n    <h3>Información Personal</h3>\n\n    <div class=\"form-group\">\n      <label for=\"form-nombre\">Primer Nombre</label>\n      <input required [(ngModel)]=\"LoteInfo.p_nombre1\" name=\"p_nombre1\" type=\"text\" class=\"form-control\" id=\"form-nombre\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-segundo-nombre\">Segundo Nombre</label>\n      <input [(ngModel)]=\"LoteInfo.p_nombre2\" name=\"p_nombre2\" type=\"text\" class=\"form-control\" id=\"form-segundo-nombre\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-primer-apellido\">Primer Apellido</label>\n      <input [(ngModel)]=\"LoteInfo.p_apellido1\" name=\"p_apellido1\" type=\"text\" class=\"form-control\" id=\"form-primer-apellido\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-segundo-apellido\">Segundo Apellido</label>\n      <input [(ngModel)]=\"LoteInfo.p_apellido2\" name=\"p_apellido2\" type=\"text\" class=\"form-control\" id=\"form-segundo-apellido\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-dpi\">CUI de DPI</label>\n      <input [(ngModel)]=\"LoteInfo.p_DPI\" name=\"p_DPI\" required pattern=\"^\\d{13}$\" type=\"number\" class=\"form-control\" id=\"form-dpi\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"nit\">NIT</label>\n      <input [(ngModel)]=\"LoteInfo.p_NIT\" name=\"p_NIT\" pattern=\"^\\d{10}$\" type=\"number\" class=\"form-control\" id=\"nit\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"telefono\">Número de Teléfono</label>\n      <input [(ngModel)]=\"LoteInfo.p_telefono\" name=\"p_telefono\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"telefono\" placeholder=\"\" required>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"celular\">Número de celular</label>\n      <input [(ngModel)]=\"LoteInfo.p_celular\" name=\"p_celular\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"celular\" placeholder=\"\" required>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"email\">Email</label>\n      <input [(ngModel)]=\"LoteInfo.email\" name=\"email\" type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"\" required>\n    </div>\n\n\n\n    <div class=\"form-group\">\n      <label for=\"dirección\">Dirección</label>\n      <input [(ngModel)]=\"LoteInfo.p_direccion\" name=\"p_direccion\" type=\"text\" class=\"form-control\" id=\"dirección\" placeholder=\"\">\n    </div>\n\n\n    <div class=\"form-group\">\n      <label for=\"bday\">Fecha de nacimiento</label>\n      <input [(ngModel)]=\"LoteInfo.p_fecha_nacimiento\" name=\"p_fecha_nacimiento\" type=\"date\" class=\"form-control\" id=\"bday\">\n    </div>\n\n    <h3>Información del Lote</h3>\n\n\n    <div class=\"form-group\">\n      <label for=\"fila\">fila</label>\n      <input required [(ngModel)]=\"LoteInfo.fila\" name=\"fila\" type=\"number\" class=\"form-control\" id=\"fila\" placeholder=\"\">\n    </div>\n\n\n    <div class=\"form-group\">\n      <label for=\"form-2\">Sector</label>\n      <input [(ngModel)]=\"LoteInfo.sector\" name=\"descripcion_curso\" type=\"number\" class=\"form-control\" id=\"form-2\" placeholder=\"\">\n    </div>\n\n    <h3>Información de la compra del lote</h3>\n\n    <div class=\"form-group\">\n      <label for=\"form-2\">Número de recibo del lote</label>\n      <input [(ngModel)]=\"LoteInfo.recibo_lote\" name=\"recibo_lote\" type=\"number\" class=\"form-control\" id=\"recibo_lote\" placeholder=\"\">\n    </div>\n\n    <div class=\"licencia_construccion\">\n      <label for=\"form-2\">Licencia de Construcción</label>\n      <input [(ngModel)]=\"LoteInfo.licencia_construccion\" name=\"licencia_construccion\" type=\"number\" class=\"form-control\" id=\"licencia_construccion\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"fecha_compra\">Fecha de nacimiento</label>\n      <input [(ngModel)]=\"LoteInfo.fecha_compra\" name=\"fecha_compra\" type=\"date\" class=\"form-control\" id=\"fecha_compra\">\n    </div>\n\n\n    <div class=\"form-group\">\n      <label for=\"observacion\">Dirección</label>\n      <input [(ngModel)]=\"LoteInfo.observacion\" name=\"observacion\" type=\"text\" class=\"form-control\" id=\"observacion\" placeholder=\"\">\n    </div>\n\n\n\n    <button (click)=\"createLote()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n\n  </form>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado la compra de un lote detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n\n</div>\n\n\n"
 
 /***/ }),
 
@@ -1826,7 +2021,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Noticia</h1>\n\n  <form>\n    <div class=\"form-group\">\n      <label for=\"form-1\">Nombre del Curso</label>\n      <input required [(ngModel)]=\"NoticiaInfo.nombre_curso\" name=\"nombre_curso\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"Nombre del Curso\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"form-2\">Descripcion de Curso</label>\n      <input [(ngModel)]=\"NoticiaInfo.descripcion_curso\" name=\"descripcion_curso\" type=\"text\" class=\"form-control\" id=\"form-2\" placeholder=\"Segundo Nombre\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Tipo de Curso</label>\n      <select [(ngModel)]=\"NoticiaInfo.id_tipo_curso\" name=\"id_tipo_curso\" class=\"form-control\" id=\"form-3\">\n        <option [ngValue]=\"1\">Cocina</option>\n        <option [ngValue]=\"2\">Crecimiento Personal</option>\n        <option [ngValue]=\"3\">Construcción</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-4\">Fecha de inicio</label>\n      <input [(ngModel)]=\"NoticiaInfo.fecha_inicio_curso\" name=\"fecha_inicio_curso\" type=\"date\" class=\"form-control\" id=\"form-4\">\n    </div>\n\n\n    <button (click)=\"createNoticia()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <button (click)=\"getAllNoticia()\" type=\"button\" class=\"btn btn-primary\">Ver Todas las Noticias</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"noticias\">\n    <div *ngFor=\"let noticia of noticias\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>Titulo: {{noticia.titulo}}</p>\n      <p>Descripcion: {{noticia.descripcion}}</p>\n      <p>Fecha Publicacion: {{noticia.p_fecha}}</p>\n      <p>url de imagen: {{noticia.url_img}}</p>\n      <p>Empleado que subio noticia: {{noticia.id_empleado}}</p>\n    </div>\n  </ng-container>\n\n\n</div>\n\n\n"
+module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Noticia</h1>\n\n  <form>\n    <div class=\"form-group\">\n\n      <label for=\"form-1\">Titulo</label>\n      <input required [(ngModel)]=\"NoticiaInfo.titulo\" name=\"nombre_curso\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"descripcion\">Descripción</label>\n      <textarea required rows=\"5\" [(ngModel)]=\"NoticiaInfo.descripcion\" name=\"descripcion\" class=\"form-control\" id=\"descripcion\" placeholder=\"\"></textarea>\n    </div>\n\n\n\n    <div class=\"form-group\">\n      <label for=\"form-4\">Fecha de Publicación</label>\n      <input [(ngModel)]=\"NoticiaInfo.p_fecha\" name=\"p_fecha\" type=\"date\" class=\"form-control\" id=\"form-4\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"url_archivo\">Elegir Imagen</label>\n      <input (change)=\"onFileSelected($event)\" type=\"file\" name=\"archivo\" class=\"form-control-file\" id=\"url_archivo\">\n    </div>\n\n    <button (click)=\"createNoticia()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Titulo: {{response.titulo}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion}}</p>\n      <p class=\"alert-primary\" >url: <a target=\"_blank\" href=\"{{response.url_img}}\">ver imagen</a> </p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n</div>\n\n\n"
 
 /***/ }),
 
@@ -1869,15 +2064,21 @@ var FormNoticiaComponent = /** @class */ (function () {
     };
     FormNoticiaComponent.prototype.createNoticia = function () {
         var _this = this;
-        console.log(this.NoticiaInfo);
-        this.noticiaService.createNoticia(this.NoticiaInfo)
-            .subscribe(function (noticia) {
-            _this.error = null;
-            _this.response = noticia;
+        var fd = new FormData();
+        fd.append('img', this.namesImg, this.namesImg.name);
+        fd.append('titulo', this.NoticiaInfo.titulo);
+        fd.append('descripcion', this.NoticiaInfo.descripcion);
+        fd.append('p_fecha', this.NoticiaInfo.p_fecha);
+        this.noticiaService.createNoticia(fd)
+            .subscribe(function (res) {
+            _this.response = res;
         }, function (err) {
-            console.log(err);
             _this.error = err;
         });
+    };
+    FormNoticiaComponent.prototype.onFileSelected = function (event) {
+        this.namesImg = event.target.files[0];
+        console.log(this.namesImg);
     };
     FormNoticiaComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1888,6 +2089,103 @@ var FormNoticiaComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_noticia_service__WEBPACK_IMPORTED_MODULE_1__["NoticiaService"]])
     ], FormNoticiaComponent);
     return FormNoticiaComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/form-postulacion/form-postulacion.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/form-postulacion/form-postulacion.component.css ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/form-postulacion/form-postulacion.component.html":
+/*!******************************************************************!*\
+  !*** ./src/app/form-postulacion/form-postulacion.component.html ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Postulación</h1>\n\n  <form>\n\n    <div class=\"form-group\">\n      <label for=\"form-nombre\">Primer Nombre</label>\n      <input required [(ngModel)]=\"formData.p_nombre1\" name=\"p_nombre1\" type=\"text\" class=\"form-control\" id=\"form-nombre\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-segundo-nombre\">Segundo Nombre</label>\n      <input [(ngModel)]=\"formData.p_nombre2\" name=\"p_nombre2\" type=\"text\" class=\"form-control\" id=\"form-segundo-nombre\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-primer-apellido\">Primer Apellido</label>\n      <input [(ngModel)]=\"formData.p_apellido1\" name=\"p_apellido1\" type=\"text\" class=\"form-control\" id=\"form-primer-apellido\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-segundo-apellido\">Segundo Apellido</label>\n      <input [(ngModel)]=\"formData.p_apellido2\" name=\"p_apellido2\" type=\"text\" class=\"form-control\" id=\"form-segundo-apellido\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-dpi\">CUI de DPI</label>\n      <input [(ngModel)]=\"formData.p_DPI\" name=\"p_DPI\" required pattern=\"^\\d{13}$\" type=\"number\" class=\"form-control\" id=\"form-dpi\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"nit\">NIT</label>\n      <input [(ngModel)]=\"formData.p_NIT\" name=\"p_NIT\" pattern=\"^\\d{10}$\" type=\"number\" class=\"form-control\" id=\"nit\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"telefono\">Número de Teléfono</label>\n      <input [(ngModel)]=\"formData.p_telefono\" name=\"p_telefono\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"telefono\" placeholder=\"\" required>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"celular\">Número de celular</label>\n      <input [(ngModel)]=\"formData.p_celular\" name=\"p_celular\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"celular\" placeholder=\"\" required>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"email\">Email</label>\n      <input [(ngModel)]=\"formData.email\" name=\"email\" type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"\" required>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"dirección\">Dirección</label>\n      <input [(ngModel)]=\"formData.p_direccion\" name=\"p_direccion\" type=\"text\" class=\"form-control\" id=\"dirección\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"curriculum\">Subir Curriculum</label>\n      <input (change)=\"onChangeFile($event)\" name=\"curriculum\" type=\"file\" class=\"form-control-file\" id=\"curriculum\">\n    </div>\n\n\n    <div class=\"form-group\">\n      <label for=\"id_oferta_trabajo\">Oferta de Trabajo</label>\n      <select [(ngModel)]=\"formData.id_oferta_trabajo\" name=\"id_oferta_trabajo\" class=\"form-control\" id=\"id_oferta_trabajo\">\n        <option *ngFor=\"let o of ofertas_trabajo\" [ngValue]=\"o.id_oferta_trabajo\">{{o.oferta + \" - \" + o.nombre_empresa}}</option>\n      </select>\n    </div>\n\n    <button (click)=\"createPostulacion()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n\n  </form>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n\n\n\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/form-postulacion/form-postulacion.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/form-postulacion/form-postulacion.component.ts ***!
+  \****************************************************************/
+/*! exports provided: FormPostulacionComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormPostulacionComponent", function() { return FormPostulacionComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _postulacion_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../postulacion.service */ "./src/app/postulacion.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var FormPostulacionComponent = /** @class */ (function () {
+    function FormPostulacionComponent(postulacionService) {
+        this.postulacionService = postulacionService;
+        this.formData = {};
+    }
+    FormPostulacionComponent.prototype.ngOnInit = function () {
+        this.getOfertas();
+    };
+    FormPostulacionComponent.prototype.createPostulacion = function () {
+        var _this = this;
+        var fd = new FormData();
+        fd.append('curriculum', this.SelectedFile, this.SelectedFile.name);
+        fd.append('p_nombre1', this.formData.p_nombre1);
+        fd.append('p_nombre2', this.formData.p_nombre2);
+        fd.append('p_apellido1', this.formData.p_apellido1);
+        fd.append('p_apellido2', this.formData.p_apellido2);
+        fd.append('p_DPI', this.formData.p_DPI);
+        fd.append('p_NIT', this.formData.p_NIT);
+        fd.append('p_telefono', this.formData.p_telefono);
+        fd.append('p_celular', this.formData.p_celular);
+        fd.append('email', this.formData.p_email);
+        fd.append('p_direccion', this.formData.p_direccion);
+        fd.append('id_oferta_trabajo', this.formData.id_oferta_trabajo);
+        this.postulacionService.createPostulacion(fd)
+            .subscribe(function (banner) { _this.success = banner; }, function (err) { return console.log(err); });
+    };
+    FormPostulacionComponent.prototype.onChangeFile = function (event) {
+        this.SelectedFile = event.target.files[0];
+        console.log(this.SelectedFile);
+    };
+    FormPostulacionComponent.prototype.getOfertas = function () {
+        var _this = this;
+        this.postulacionService.getOfertas()
+            .subscribe(function (ofertas) {
+            _this.ofertas_trabajo = ofertas;
+        });
+    };
+    FormPostulacionComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-form-postulacion',
+            template: __webpack_require__(/*! ./form-postulacion.component.html */ "./src/app/form-postulacion/form-postulacion.component.html"),
+            styles: [__webpack_require__(/*! ./form-postulacion.component.css */ "./src/app/form-postulacion/form-postulacion.component.css")]
+        }),
+        __metadata("design:paramtypes", [_postulacion_service__WEBPACK_IMPORTED_MODULE_1__["PostulacionService"]])
+    ], FormPostulacionComponent);
+    return FormPostulacionComponent;
 }());
 
 
@@ -1912,7 +2210,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Proyecto</h1>\n\n  <form>\n    <div class=\"form-group\">\n      <label for=\"form-1\">Nombre del Curso</label>\n      <input required [(ngModel)]=\"ProyectoInfo.nombre_curso\" name=\"nombre_curso\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"Nombre del Curso\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"form-2\">Descripcion de Curso</label>\n      <input [(ngModel)]=\"ProyectoInfo.descripcion_curso\" name=\"descripcion_curso\" type=\"text\" class=\"form-control\" id=\"form-2\" placeholder=\"Segundo Nombre\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Tipo de Curso</label>\n      <select [(ngModel)]=\"ProyectoInfo.id_tipo_curso\" name=\"id_tipo_curso\" class=\"form-control\" id=\"form-3\">\n        <option [ngValue]=\"1\">Cocina</option>\n        <option [ngValue]=\"2\">Crecimiento Personal</option>\n        <option [ngValue]=\"3\">Construcción</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-4\">Fecha de inicio</label>\n      <input [(ngModel)]=\"ProyectoInfo.fecha_inicio_curso\" name=\"fecha_inicio_curso\" type=\"date\" class=\"form-control\" id=\"form-4\">\n    </div>\n\n\n    <button (click)=\"createProyecto()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <button (click)=\"getAllProyecto()\" type=\"button\" class=\"btn btn-primary\">Ver Todas las Noticias</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"proyectos\">\n    <div *ngFor=\"let proyecto of proyectos\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>Proyecto titulo: {{proyecto.proyecto}}</p>\n      <p>Descripcion: {{proyecto.descripcion_proyecto}}</p>\n      <p>Fecha Inicio proyecto: {{proyecto.fecha_inicio_proyecto}}</p>\n      <p>Fecha Final: {{proyecto.fecha_final_proyecto}}</p>\n      <p>Monto del proyecto: {{proyecto.monto_proyecto}}</p>\n      <p>tipo de proyecto: {{proyecto.id_tipo_proyecto}}</p>\n      <p>Empleado: {{proyecto.id_empleado}}</p>\n      <p>Categoria de proyecto: {{proyecto.id_categoria_proyecto}}</p>\n    </div>\n  </ng-container>\n\n\n</div>\n\n\n"
+module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Proyecto</h1>\n\n  <form>\n\n    <div class=\"form-group\">\n      <label for=\"id_tipo_proyecto\">Tipo de Proyecto</label>\n      <select [(ngModel)]=\"ProyectoInfo.id_tipo_proyecto\" name=\"id_tipo_proyecto\" class=\"form-control\" id=\"id_tipo_proyecto\">\n        <option *ngFor=\"let tipos of tipos_proyecto\" [ngValue]=\"tipos.id_tipo_proyecto\">{{tipos.tipo_proyecto}}</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"id_categoria_proyecto\">Categoria de Proyecto</label>\n      <select [(ngModel)]=\"ProyectoInfo.id_categoria_proyecto\" name=\"id_categoria_proyecto\" class=\"form-control\" id=\"id_categoria_proyecto\">\n        <option *ngFor=\"let cat of categoria_proyecto\" [ngValue]=\"cat.id_categoria_proyecto\">{{cat.categoria_proyecto}}</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"proyecto\">Nombre del Proyecto</label>\n      <input [(ngModel)]=\"ProyectoInfo.proyecto\" name=\"proyecto\" type=\"text\" class=\"form-control\" id=\"proyecto\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"descripcion_proyecto\">Descripción del Proyecto</label>\n      <textarea row=\"5\" [(ngModel)]=\"ProyectoInfo.descripcion_proyecto\" name=\"descripcion_proyecto\" type=\"text\" class=\"form-control\" id=\"descripcion_proyecto\" placeholder=\"\"></textarea>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"fecha_inicio_proyecto\">Fecha de inicio del Proyecto</label>\n      <input [(ngModel)]=\"ProyectoInfo.fecha_inicio_proyecto\" name=\"fecha_inicio_proyecto\" type=\"date\" class=\"form-control\" id=\"fecha_inicio_proyecto\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"fecha_final_proyecto\">Fecha Final del Proyecto</label>\n      <input [(ngModel)]=\"ProyectoInfo.fecha_final_proyecto\" name=\"fecha_final_proyecto\" type=\"date\" class=\"form-control\" id=\"fecha_final_proyecto\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"monto_proyecto\">Monto del Proyecto</label>\n      <input [(ngModel)]=\"ProyectoInfo.monto_proyecto\" name=\"monto_proyecto\" type=\"number\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"monto_proyecto\" placeholder=\"\" required>\n    </div>\n\n    <button (click)=\"createProyecto()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"proyectos\">\n    <div *ngFor=\"let proyecto of proyectos\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>Proyecto titulo: {{proyecto.proyecto}}</p>\n      <p>Descripcion: {{proyecto.descripcion_proyecto}}</p>\n      <p>Fecha Inicio proyecto: {{proyecto.fecha_inicio_proyecto}}</p>\n      <p>Fecha Final: {{proyecto.fecha_final_proyecto}}</p>\n      <p>Monto del proyecto: {{proyecto.monto_proyecto}}</p>\n      <p>tipo de proyecto: {{proyecto.id_tipo_proyecto}}</p>\n      <p>Empleado: {{proyecto.id_empleado}}</p>\n      <p>Categoria de proyecto: {{proyecto.id_categoria_proyecto}}</p>\n    </div>\n  </ng-container>\n\n\n</div>\n\n\n"
 
 /***/ }),
 
@@ -1945,6 +2243,8 @@ var FormProyectoComponent = /** @class */ (function () {
         this.ProyectoInfo = {};
     }
     FormProyectoComponent.prototype.ngOnInit = function () {
+        this.getTiposProyecto();
+        this.getCategoriaProyecto();
     };
     FormProyectoComponent.prototype.getAllProyecto = function () {
         var _this = this;
@@ -1964,6 +2264,16 @@ var FormProyectoComponent = /** @class */ (function () {
             console.log(err);
             _this.error = err;
         });
+    };
+    FormProyectoComponent.prototype.getTiposProyecto = function () {
+        var _this = this;
+        this.proyectoService.getTiposProyecto()
+            .subscribe(function (tipos) { return _this.tipos_proyecto = tipos; });
+    };
+    FormProyectoComponent.prototype.getCategoriaProyecto = function () {
+        var _this = this;
+        this.proyectoService.getCategoriaProyecto()
+            .subscribe(function (cat) { return _this.categoria_proyecto = cat; });
     };
     FormProyectoComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1998,7 +2308,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Servicio</h1>\n\n  <form>\n    <div class=\"form-group\">\n      <label for=\"form-1\">Servicio</label>\n      <textarea required [(ngModel)]=\"servicioInfo.servicio\" rows=\"5\" cols=\"6\" name=\"servicio\"  class=\"form-control\" id=\"form-1\" placeholder=\"Detalles del servicio\"></textarea>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Tipo de Servicio</label>\n      <select [(ngModel)]=\"servicioInfo.id_tipo_servicio\" name=\"id_tipo_servicio\" class=\"form-control\" id=\"form-3\">\n        <option [ngValue]=\"1\">Comun</option>\n        <option [ngValue]=\"2\">Agua</option>\n        <option [ngValue]=\"3\">Electricidad</option>\n        <option [ngValue]=\"4\">Embalastados</option>\n      </select>\n    </div>\n\n\n    <button (click)=\"createServicio()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <button (click)=\"getAllServicio()\" type=\"button\" class=\"btn btn-primary\">Ver Todos los cursos</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado un servicio, detalles:\n      <p class=\"alert-primary\" >Servicio: {{response.servicio}}</p>\n      <p class=\"alert-primary\" >Empleado quien lo subio: {{response.id_empleado}}</p>\n      <p class=\"alert-primary\" >tipo de servicio: {{response.id_tipo_servicio }} </p>\n\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"servicios\">\n    <div *ngFor=\"let servicio of servicios\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>Servicio: {{servicio.servicio}}</p>\n      <p>Empleado quien subio: {{servicio.id_empleado}}</p>\n      <p>Tipo de servicio: {{servicio.id_tipo_servicio}}</p>\n    </div>\n  </ng-container>\n\n\n</div>\n\n"
+module.exports = "\n\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Servicio</h1>\n\n  <form>\n    <div class=\"form-group\">\n      <label for=\"form-1\">Servicio</label>\n      <textarea required [(ngModel)]=\"servicioInfo.servicio\" rows=\"5\" cols=\"6\" name=\"servicio\"  class=\"form-control\" id=\"form-1\" placeholder=\"Detalles del servicio\"></textarea>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Tipo de Servicio</label>\n      <select [(ngModel)]=\"servicioInfo.id_tipo_servicio\" name=\"id_tipo_servicio\" class=\"form-control\" id=\"form-3\">\n        <option *ngFor=\"let ts of tipos_servicios\" [ngValue]=\"ts.id_tipo_servicio\">{{ts.tipo_servicio}}</option>\n      </select>\n    </div>\n\n\n    <button (click)=\"createServicio()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado un servicio, detalles:\n      <p class=\"alert-primary\" >Servicio: {{response.servicio}}</p>\n      <p class=\"alert-primary\" >Empleado quien lo subio: {{response.id_empleado}}</p>\n      <p class=\"alert-primary\" >tipo de servicio: {{response.id_tipo_servicio }} </p>\n\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n</div>\n\n"
 
 /***/ }),
 
@@ -2031,6 +2341,7 @@ var FormServicioComponent = /** @class */ (function () {
         this.servicioInfo = {};
     }
     FormServicioComponent.prototype.ngOnInit = function () {
+        this.getTiposServicio();
     };
     FormServicioComponent.prototype.getAllServicio = function () {
         var _this = this;
@@ -2048,6 +2359,15 @@ var FormServicioComponent = /** @class */ (function () {
         }, function (err) {
             console.log(err);
             _this.error = err;
+        });
+    };
+    FormServicioComponent.prototype.getTiposServicio = function () {
+        var _this = this;
+        this.servicioService.getTiposServicio()
+            .subscribe(function (tiposServicio) {
+            _this.tipos_servicios = tiposServicio;
+        }, function (err) {
+            console.log(err);
         });
     };
     FormServicioComponent = __decorate([
@@ -2083,7 +2403,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Postulacion de Trabajo</h1>\n\n  <form>\n    <div class=\"form-group\">\n      <label for=\"form-1\">Nombre del Curso</label>\n      <input required [(ngModel)]=\"PostulacionInfo.nombre_curso\" name=\"nombre_curso\" type=\"text\" class=\"form-control\" id=\"form-1\" placeholder=\"Nombre del Curso\">\n    </div>\n    <div class=\"form-group\">\n      <label for=\"form-2\">Descripcion de Curso</label>\n      <input [(ngModel)]=\"PostulacionInfo.descripcion_curso\" name=\"descripcion_curso\" type=\"text\" class=\"form-control\" id=\"form-2\" placeholder=\"Segundo Nombre\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-3\">Tipo de Curso</label>\n      <select [(ngModel)]=\"PostulacionInfo.id_tipo_curso\" name=\"id_tipo_curso\" class=\"form-control\" id=\"form-3\">\n        <option [ngValue]=\"1\">Cocina</option>\n        <option [ngValue]=\"2\">Crecimiento Personal</option>\n        <option [ngValue]=\"3\">Construcción</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"form-4\">Fecha de inicio</label>\n      <input [(ngModel)]=\"PostulacionInfo.fecha_inicio_curso\" name=\"fecha_inicio_curso\" type=\"date\" class=\"form-control\" id=\"form-4\">\n    </div>\n\n\n    <button (click)=\"createPostulacion()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <button (click)=\"getAllPostulacion()\" type=\"button\" class=\"btn btn-primary\">Ver Todas las Noticias</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"postulaciones\">\n    <div *ngFor=\"let postulacion of postulaciones\" class=\"alert alert-info animated fadeInRight mt-5 mb-5\" role=\"info\">\n      <p>id postulante: {{postulacion.id_postulante}}</p>\n      <p>id Oferta trabajo: {{postulacion.id_oferta_trabajo}}</p>\n    </div>\n  </ng-container>\n\n\n</div>\n\n\n"
+module.exports = "\n<div class=\"animated fadeInLeft\">\n  <h1>Subir Postulacion de Trabajo</h1>\n\n  <form>\n\n    <div class=\"form-group\">\n      <label for=\"id_categoria_trabajo\">Categoría de Trabajo</label>\n      <select [(ngModel)]=\"PostulacionInfo.id_categoria_trabajo\" name=\"id_categoria_trabajo\" class=\"form-control\" id=\"id_categoria_trabajo\">\n        <option *ngFor=\"let cat of categoria_trabajo\" [ngValue]=\"cat.id_categoria_trabajo\">{{cat.categoria_trabajo}}</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"oferta\">Oferta</label>\n      <input required [(ngModel)]=\"PostulacionInfo.oferta\" name=\"oferta\" type=\"text\" class=\"form-control\" id=\"oferta\" placeholder=\"\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"descripcion_oferta\">Descripcion de Oferta</label>\n      <textarea row=\"5\" [(ngModel)]=\"PostulacionInfo.descripcion_oferta\" name=\"descripcion_oferta\" type=\"text\" class=\"form-control\" id=\"descripcion_oferta\" placeholder=\"\"></textarea>\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"nombre_empresa\">Nombre de Empresa</label>\n      <input [(ngModel)]=\"PostulacionInfo.nombre_empresa\" type=\"text\" name=\"nombre_empresa\" class=\"form-control\" id=\"nombre_empresa\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"direccion_empresa\">Dirección de la Empresa</label>\n      <input [(ngModel)]=\"PostulacionInfo.direccion_empresa\" name=\"direccion_empresa\" type=\"text\" class=\"form-control\" id=\"direccion_empresa\">\n    </div>\n\n    <div class=\"form-group\">\n      <label for=\"telefono_empresa\">Número de teléfono de la Empresa</label>\n      <input [(ngModel)]=\"PostulacionInfo.telefono_empresa\" name=\"telefono_empresa\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"telefono_empresa\" placeholder=\"\" required>\n    </div>\n\n\n    <button (click)=\"createOferta()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n  </form>\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n</div>\n\n\n"
 
 /***/ }),
 
@@ -2116,6 +2436,7 @@ var FormTrabajoComponent = /** @class */ (function () {
         this.PostulacionInfo = {};
     }
     FormTrabajoComponent.prototype.ngOnInit = function () {
+        this.getCategoriaTrabajo();
     };
     FormTrabajoComponent.prototype.getAllPostulacion = function () {
         var _this = this;
@@ -2124,15 +2445,25 @@ var FormTrabajoComponent = /** @class */ (function () {
             _this.postulaciones = posts;
         });
     };
-    FormTrabajoComponent.prototype.createPostulacion = function () {
+    FormTrabajoComponent.prototype.createOferta = function () {
         var _this = this;
-        this.trabajoService.createPostulacion(this.PostulacionInfo)
+        console.log(this.PostulacionInfo);
+        this.trabajoService.createOferta(this.PostulacionInfo)
             .subscribe(function (post) {
             _this.error = null;
             _this.response = post;
         }, function (err) {
             console.log(err);
             _this.error = err;
+        });
+    };
+    FormTrabajoComponent.prototype.getCategoriaTrabajo = function () {
+        var _this = this;
+        this.trabajoService.getCategoriaTrabajo()
+            .subscribe(function (cat) {
+            _this.categoria_trabajo = cat;
+        }, function (err) {
+            console.log(err);
         });
     };
     FormTrabajoComponent = __decorate([
@@ -2569,7 +2900,7 @@ module.exports = "#consejo{\n  width:90%;\n  margin-left:auto;\n  margin-right:a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"animated fadeInLeft\">\n<div class=\"mt-5 col-sm-12\">\n  <h1 class=\"font-baloo text-center\">Municipalidad de Morales</h1>\n  <h5 class=\"text-center mt-3\">Barrio Los Castro, Frente al Parque Municipal</h5>\n  <h5 class=\"text-center mb-3\">Municipio de Morales, Departamento de Izabal</h5>\n</div>\n<div class=\"col-sm-12\">\n  <img id=\"logo-carousell\" src=\"../assets/logo.png\" alt=\"\">\n</div>\n\n\n<!--<app-banners></app-banners>-->\n\n<!--<app-info-board></app-info-board>-->\n\n<div class=\"row mt-5\">\n\n  <div class=\"mt-5 col-sm-12\">\n    <h1 class=\"text-center\">Equipo Municipal</h1>\n    <img id=\"consejo\" class=\"img-fluid\" src=\"../assets/concejo-municipal.png\" alt=\"Consejo Municipal\">\n  </div>\n\n\n\n  <div class=\"mt-5 col-sm-12 col-md-6\">\n    <h3 class=\"text-center\">Misión</h3>\n    <blockquote class=\"blockquote\">\n      <p class=\"text-justify mb-0\">\"En el 2016, el Gobierno Municipal de Morales, Izabal habrá propiciado las condiciones iniciales indispensables para generar el desarrollo humano sostenible y sustentable dentro de su territorio, sobre la base de una eficiente y eficaz prestación de servicios públicos y administrativos que le permitirá constituirse en el eje articulador del desarrollo socio-económico de la región\".</p>\n    </blockquote>\n  </div>\n\n  <div class=\"mt-5 col-sm-12 col-md-6\">\n    <h3 class=\"text-center\">Visión</h3>\n    <blockquote class=\"blockquote\">\n      <p class=\"text-justify mb-0\">\"Somos un gobierno representativo de los sectores ciudadanos del municipio de Morales con múltiples requerimientos, en facilitar las herramientas y mecanismos para optimizar su calidad de vida; siendo un equipo comprometido y responsable que brinda soluciones eficientes y eficaces para cumplir con el mandato popular\".</p>\n    </blockquote>\n  </div>\n\n</div>\n\n\n<!-- Events calendar -->\n<div class=\"mt-3 mb-3 row\">\n  <div class=\"col-sm-12\">\n    <h1 class=\"text-center\">Calendario de Eventos</h1>\n  </div>\n</div>\n<!--<app-events></app-events>-->\n\n<app-youtube></app-youtube>\n</div>\n"
+module.exports = "\n<div class=\"animated fadeInLeft\">\n<div class=\"mt-5 col-sm-12\">\n  <h1 class=\"font-baloo text-center\">Municipalidad de Morales</h1>\n  <h5 class=\"text-center mt-3\">Barrio Los Castro, Frente al Parque Municipal</h5>\n  <h5 class=\"text-center mb-3\">Municipio de Morales, Departamento de Izabal</h5>\n</div>\n<div class=\"col-sm-12\">\n  <img id=\"logo-carousell\" src=\"../assets/logo.png\" alt=\"\">\n</div>\n\n\n<!--<app-banners></app-banners>-->\n\n<!--<app-info-board></app-info-board>-->\n\n<div class=\"row mt-5\">\n\n  <div class=\"mt-5 col-sm-12\">\n    <h1 class=\"text-center\">Equipo Municipal</h1>\n    <img id=\"consejo\" class=\"img-fluid\" src=\"../assets/concejo-municipal.png\" alt=\"Consejo Municipal\">\n  </div>\n\n\n\n  <div class=\"mt-5 col-sm-12 col-md-6\">\n    <h3 class=\"text-center\">Misión</h3>\n    <blockquote class=\"blockquote\">\n      <p class=\"text-justify mb-0\">\n        Administrar los recursos municipales de forma eficaz, eficiente y transparente, con un equipo profesional y comprometido, que garantice la prestación de servicios de calidad.</p>\n    </blockquote>\n  </div>\n\n  <div class=\"mt-5 col-sm-12 col-md-6\">\n    <h3 class=\"text-center\">Visión</h3>\n    <blockquote class=\"blockquote\">\n      <p class=\"text-justify mb-0\">\n        Ser un gobierno local que genere las condiciones indispensables para el desarrollo sostenible, propiciando una mejor calidad de vida para todos sus habitantes.</p>\n    </blockquote>\n  </div>\n  <div class=\"mt-5 col-sm-12\">\n    <h3 class=\"text-center\">Valores</h3>\n    <blockquote class=\"blockquote\">\n      <p class=\"text-justify mb-0\">\n        <strong>Honestidad: </strong> actuar siempre con base en la justicia, dando a cada quien lo que le corresponde, generando confianza en los vecinos moralenses.\n      </p>\n      <p class=\"text-justify mb-0\">\n        <strong>Responsabilidad: </strong> Cumplir y desarrollar el trabajo de forma efectiva y eficiente, obteniendo resultados positivos e integrales para el bienestar de todos.\n      </p>\n      <p class=\"text-justify mb-0\">\n        <strong>Transparencia: </strong> Comprometidos con el municipio realizando cada gestión con transparencia y calidad, permitiendo que los demás observen claramente el mensaje de nuestras acciones.\n      </p>\n      <p class=\"text-justify mb-0\">\n        <strong>Respeto: </strong> En el desempeño de las actividades garantizar una relación de confianza, consideración, y valor especial hacia los vecinos, sin hacer excepción de personas.\n      </p>\n      <p class=\"text-justify mb-0\">\n        <strong>Compromiso: </strong> Practicar esfuerzos individuales y colectivos para el logro de los objetivos institucionales y actuar más allá del deber en pro de la población moralense.\n      </p>\n    </blockquote>\n  </div>\n\n</div>\n\n\n<!-- Events calendar -->\n<div class=\"mt-3 mb-3 row\">\n  <div class=\"col-sm-12\">\n    <h1 class=\"text-center\">Calendario de Eventos</h1>\n  </div>\n</div>\n<app-events></app-events>\n\n<app-youtube></app-youtube>\n</div>\n"
 
 /***/ }),
 
@@ -4024,6 +4355,56 @@ var OpengovComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/postulacion.service.ts":
+/*!****************************************!*\
+  !*** ./src/app/postulacion.service.ts ***!
+  \****************************************/
+/*! exports provided: PostulacionService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PostulacionService", function() { return PostulacionService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _util_url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/url */ "./src/util/url.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var PostulacionService = /** @class */ (function () {
+    function PostulacionService(http) {
+        this.http = http;
+        this.url = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/oferta_trabajo";
+        this.url2 = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/postulacion/crear_postulacion";
+    }
+    PostulacionService.prototype.createPostulacion = function (data) {
+        return this.http.post(this.url2, data);
+    };
+    PostulacionService.prototype.getOfertas = function () {
+        return this.http.get(this.url);
+    };
+    PostulacionService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
+    ], PostulacionService);
+    return PostulacionService;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/project-template/project-template.component.css":
 /*!*****************************************************************!*\
   !*** ./src/app/project-template/project-template.component.css ***!
@@ -4317,6 +4698,8 @@ var ProjectsPlanifiedComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsService", function() { return ProjectsService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _util_url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/url */ "./src/util/url.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4327,8 +4710,11 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var ProjectsService = /** @class */ (function () {
-    function ProjectsService() {
+    function ProjectsService(http) {
+        this.http = http;
         this.Executed = [
             {
                 title: "Proyecto Escuela Justo Rufino Barrios",
@@ -4542,7 +4928,11 @@ var ProjectsService = /** @class */ (function () {
                 ]
             },
         ];
+        this.url = _util_url__WEBPACK_IMPORTED_MODULE_2__["URL"] + "/api/tipo_proyecto";
     }
+    ProjectsService.prototype.getTiposProyecto = function () {
+        return this.http.get(this.url);
+    };
     ProjectsService.prototype.getExecutionProjects = function () {
         return this.Executed;
     };
@@ -4556,7 +4946,7 @@ var ProjectsService = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
     ], ProjectsService);
     return ProjectsService;
 }());
@@ -4663,12 +5053,20 @@ var ProyectoService = /** @class */ (function () {
         this.http = http;
         this.url = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/proyecto/crear_proyecto";
         this.url2 = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/proyecto";
+        this.url3 = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/tipo_proyecto";
+        this.url4 = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/categoria_proyecto";
     }
     ProyectoService.prototype.createProyecto = function (proyecto) {
         return this.http.post(this.url, proyecto);
     };
     ProyectoService.prototype.getAllProyecto = function () {
         return this.http.get(this.url2);
+    };
+    ProyectoService.prototype.getTiposProyecto = function () {
+        return this.http.get(this.url3);
+    };
+    ProyectoService.prototype.getCategoriaProyecto = function () {
+        return this.http.get(this.url4);
     };
     ProyectoService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -4713,12 +5111,16 @@ var ServicioService = /** @class */ (function () {
         this.http = http;
         this.url = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/servicio/crear_servicio";
         this.url2 = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/servicio";
+        this.url3 = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/tipo_servicio";
     }
     ServicioService.prototype.createServicio = function (servicio) {
         return this.http.post(this.url, servicio);
     };
     ServicioService.prototype.getAllServicio = function () {
         return this.http.get(this.url2);
+    };
+    ServicioService.prototype.getTiposServicio = function () {
+        return this.http.get(this.url3);
     };
     ServicioService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -4751,7 +5153,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n<div class=\"animated fadeInLeft\">\n\n<h1>Registro de Empleados</h1>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"form-nombre\">Primer Nombre</label>\n    <input required [(ngModel)]=\"formData.p_nombre1\" name=\"p_nombre1\" type=\"text\" class=\"form-control\" id=\"form-nombre\" placeholder=\"Primer Nombre\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-segundo-nombre\">Segundo Nombre</label>\n    <input [(ngModel)]=\"formData.p_nombre2\" name=\"p_nombre2\" type=\"text\" class=\"form-control\" id=\"form-segundo-nombre\" placeholder=\"Segundo Nombre\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-primer-apellido\">Primer Apellido</label>\n    <input [(ngModel)]=\"formData.p_apellido1\" name=\"p_apellido1\" type=\"text\" class=\"form-control\" id=\"form-primer-apellido\" placeholder=\"Primer Apellido\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-segundo-apellido\">Segundo Apellido</label>\n    <input [(ngModel)]=\"formData.p_apellido2\" name=\"p_apellido2\" type=\"text\" class=\"form-control\" id=\"form-segundo-apellido\" placeholder=\"Segundo Apellido\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-dpi\">CUI de DPI</label>\n    <input [(ngModel)]=\"formData.p_DPI\" name=\"p_DPI\" required pattern=\"^\\d{13}$\" type=\"number\" class=\"form-control\" id=\"form-dpi\" placeholder=\"2121555550000\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"nit\">NIT</label>\n    <input [(ngModel)]=\"formData.p_NIT\" name=\"p_NIT\" pattern=\"^\\d{10}$\" type=\"number\" class=\"form-control\" id=\"nit\" placeholder=\"NIT\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"telefono\">Número de Teléfono</label>\n    <input [(ngModel)]=\"formData.p_telefono\" name=\"p_telefono\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"telefono\" placeholder=\"55555555\" required>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"celular\">Número de celular</label>\n    <input [(ngModel)]=\"formData.p_celular\" name=\"p_celular\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"celular\" placeholder=\"55555555\" required>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"email\">Email</label>\n    <input [(ngModel)]=\"formData.email\" name=\"email\" type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"ejemplo@email.com\" required>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"dirección\">Dirección</label>\n    <input [(ngModel)]=\"formData.p_direccion\" name=\"p_direccion\" type=\"text\" class=\"form-control\" id=\"dirección\" placeholder=\"Barrio Los Castro, Frente al Parque Municipal\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"bday\">Fecha de nacimiento</label>\n    <input [(ngModel)]=\"formData.p_fecha_nacimiento\" name=\"p_fecha_nacimiento\" type=\"date\" class=\"form-control\" id=\"bday\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"rol\">Rol del empleado</label>\n    <select [(ngModel)]=\"formData.rol\" name=\"rol\" class=\"form-control\" id=\"rol\">\n      <option [ngValue]=\"1\">Administrador</option>\n      <option [ngValue]=\"2\">Desabilitado</option>\n      <option [ngValue]=\"3\">Empleado</option>\n      <option [ngValue]=\"4\">Gerente</option>\n    </select>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"puesto\">Puesto</label>\n    <input [(ngModel)]=\"formData.puesto\" name=\"puesto\" type=\"text\" class=\"form-control\" id=\"puesto\" placeholder=\"Administrador informático\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"fingreso\">Fecha de Ingreso</label>\n    <input [(ngModel)]=\"formData.fecha_ingreso\" name=\"fecha_ingreso\" type=\"date\" class=\"form-control\" id=\"fingreso\">\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"usuario\">usuario</label>\n    <input [(ngModel)]=\"formData.usuario\" name=\"usuario\" type=\"text\" class=\"form-control\" id=\"usuario\" placeholder=\"Usuario\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"password\">Contraseña</label>\n    <input [(ngModel)]=\"formData.contrasena\" name=\"contrasena\" type=\"password\" class=\"form-control\" id=\"password\">\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"depto\">Departamento</label>\n    <select [(ngModel)]=\"formData.departamento\" name=\"departamento\" class=\"form-control\" id=\"depto\">\n      <option [ngValue]=\"1\">PMT</option>\n      <option [ngValue]=\"2\">VUME</option>\n      <option [ngValue]=\"3\">GERENCIA</option>\n      <option [ngValue]=\"4\">CAPORALIA</option>\n      <option [ngValue]=\"5\">DMT</option>\n    </select>\n  </div>\n\n  <button (click)=\"submitForm()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</form>\n\n  <button (click)=\"getAllUsers()\" type=\"button\" class=\"btn btn-primary\">Ver Todas las Noticias</button>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n  <ng-container *ngIf=\"depto_users\">\n\n\n  </ng-container>\n\n</div>\n"
+module.exports = "\n\n<div class=\"animated fadeInLeft\">\n\n<h1>Registro de Empleados</h1>\n\n<form>\n  <div class=\"form-group\">\n    <label for=\"form-nombre\">Primer Nombre</label>\n    <input required [(ngModel)]=\"formData.p_nombre1\" name=\"p_nombre1\" type=\"text\" class=\"form-control\" id=\"form-nombre\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-segundo-nombre\">Segundo Nombre</label>\n    <input [(ngModel)]=\"formData.p_nombre2\" name=\"p_nombre2\" type=\"text\" class=\"form-control\" id=\"form-segundo-nombre\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-primer-apellido\">Primer Apellido</label>\n    <input [(ngModel)]=\"formData.p_apellido1\" name=\"p_apellido1\" type=\"text\" class=\"form-control\" id=\"form-primer-apellido\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-segundo-apellido\">Segundo Apellido</label>\n    <input [(ngModel)]=\"formData.p_apellido2\" name=\"p_apellido2\" type=\"text\" class=\"form-control\" id=\"form-segundo-apellido\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"form-dpi\">CUI de DPI</label>\n    <input [(ngModel)]=\"formData.p_DPI\" name=\"p_DPI\" required pattern=\"^\\d{13}$\" type=\"number\" class=\"form-control\" id=\"form-dpi\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"nit\">NIT</label>\n    <input [(ngModel)]=\"formData.p_NIT\" name=\"p_NIT\" pattern=\"^\\d{10}$\" type=\"number\" class=\"form-control\" id=\"nit\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"telefono\">Número de Teléfono</label>\n    <input [(ngModel)]=\"formData.p_telefono\" name=\"p_telefono\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"telefono\" placeholder=\"\" required>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"celular\">Número de celular</label>\n    <input [(ngModel)]=\"formData.p_celular\" name=\"p_celular\" type=\"tel\" class=\"form-control\" pattern=\"[0-9]{8}\" id=\"celular\" placeholder=\"\" required>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"email\">Email</label>\n    <input [(ngModel)]=\"formData.email\" name=\"email\" type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"\" required>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"dirección\">Dirección</label>\n    <input [(ngModel)]=\"formData.p_direccion\" name=\"p_direccion\" type=\"text\" class=\"form-control\" id=\"dirección\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"bday\">Fecha de nacimiento</label>\n    <input [(ngModel)]=\"formData.p_fecha_nacimiento\" name=\"p_fecha_nacimiento\" type=\"date\" class=\"form-control\" id=\"bday\">\n  </div>\n\n\n  <div class=\"form-group\">\n    <label for=\"rol\">Rol del empleado</label>\n    <select [(ngModel)]=\"formData.rol\" name=\"rol\" class=\"form-control\" id=\"rol\">\n      <option [ngValue]=\"1\">Administrador</option>\n      <option [ngValue]=\"2\">Desabilitado</option>\n      <option [ngValue]=\"3\">Empleado</option>\n      <option [ngValue]=\"4\">Gerente</option>\n    </select>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"puesto\">Puesto</label>\n    <input [(ngModel)]=\"formData.puesto\" name=\"puesto\" type=\"text\" class=\"form-control\" id=\"puesto\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"fingreso\">Fecha de Ingreso</label>\n    <input [(ngModel)]=\"formData.fecha_ingreso\" name=\"fecha_ingreso\" type=\"date\" class=\"form-control\" id=\"fingreso\">\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"usuario\">usuario</label>\n    <input [(ngModel)]=\"formData.usuario\" name=\"usuario\" type=\"text\" class=\"form-control\" id=\"usuario\" placeholder=\"\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"password\">Contraseña</label>\n    <input [(ngModel)]=\"formData.contrasena\" name=\"contrasena\" type=\"password\" class=\"form-control\" id=\"password\">\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"depto\">Departamento</label>\n    <select [(ngModel)]=\"formData.departamento\" name=\"departamento\" class=\"form-control\" id=\"depto\">\n      <option [ngValue]=\"1\">PMT</option>\n      <option [ngValue]=\"2\">VUME</option>\n      <option [ngValue]=\"3\">GERENCIA</option>\n      <option [ngValue]=\"4\">CAPORALIA</option>\n      <option [ngValue]=\"5\">DMT</option>\n    </select>\n  </div>\n\n  <button (click)=\"submitForm()\" type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</form>\n\n\n  <ng-container *ngIf=\"response\">\n    <div class=\"alert alert-success animated fadeInRight mt-5 mb-5\" role=\"sucess\">\n      Exito se a guardado Curso detalles:\n      <p class=\"alert-primary\" >Nombre del Curso: {{response.nombre_curso}}</p>\n      <p class=\"alert-primary\" >Descripcion: {{response.descripcion_curso}}</p>\n      <p class=\"alert-primary\" >Fecha inicio: {{response.fecha_inicio_curso }} </p>\n      <p class=\"alert-primary\" >Fecha final: {{response.fecha_fin_curso }}</p>\n    </div>\n  </ng-container>\n\n  <ng-container *ngIf=\"error\">\n    <div class=\"alert alert-danger animated fadeInRight mt-5 mb-5\" role=\"danger\">\n      A ocurrido un error, revisar formulario\n    </div>\n  </ng-container>\n\n\n</div>\n"
 
 /***/ }),
 
@@ -4908,12 +5310,20 @@ var TrabajoService = /** @class */ (function () {
         this.http = http;
         this.url = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/postulacion/crear_postulacion";
         this.url2 = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/postulacion";
+        this.url3 = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/categoria_trabajo";
+        this.url4 = _util_url__WEBPACK_IMPORTED_MODULE_1__["URL"] + "/api/oferta_trabajo/crear_trabajo";
     }
+    TrabajoService.prototype.createOferta = function (oferta) {
+        return this.http.post(this.url4, oferta);
+    };
     TrabajoService.prototype.createPostulacion = function (postulacion) {
         return this.http.post(this.url, postulacion);
     };
     TrabajoService.prototype.getAllPostulacion = function () {
         return this.http.get(this.url2);
+    };
+    TrabajoService.prototype.getCategoriaTrabajo = function () {
+        return this.http.get(this.url3);
     };
     TrabajoService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({

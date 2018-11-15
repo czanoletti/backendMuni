@@ -9,7 +9,8 @@ module.exports = (sequelize, DataTypes)=>{
             },
             usuario:{
                 type: DataTypes.CHAR(50),
-                allowNull: false
+                allowNull: false,
+                unique: true
             },
             contrasena:{
                 type: DataTypes.CHAR(50),

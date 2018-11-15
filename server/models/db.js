@@ -9,7 +9,8 @@ var db        = {};
 const sequelize = new Sequelize('dbdev', 'root', '<sisifo2016>', {
   host: 'localhost',
   dialect: 'mysql',
-  operatorsAliases: false
+  operatorsAliases: false,
+    logging: false
 });
 
 
@@ -44,6 +45,7 @@ db.oferta_trabajo = require("../models/oferta_trabajo")(sequelize, Sequelize);
 db.postulante = require("../models/postulante")(sequelize, Sequelize);
 db.postulacion = require("../models/postulacion")(sequelize, Sequelize);
 db.evento = require("../models/eventos")(sequelize, Sequelize);
+db.banner = require("../models/banner")(sequelize, Sequelize);
 
 
 
